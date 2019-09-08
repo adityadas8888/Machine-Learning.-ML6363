@@ -1,8 +1,12 @@
-# import numpy as np
-# import matplotlib.pyplot as plt
-# import pandas as pd
-# import copy
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import copy
+import os
 
+dir_path = os.path.dirname(os.path.realpath(__file__));
+data = pd.read_csv(dir_path+"/IRIS.csv");
+print(data);
 # def center_assignment(df, centers):
 #     for i in centers.keys():
 #         df['distance_from_{}'.format(i)] = (
