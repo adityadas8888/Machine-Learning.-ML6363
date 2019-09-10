@@ -2,13 +2,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
-
+import seaborn as sns; 
 #read_replace function. This function is used to read the dataset from the folder and replace the Nominal values with some quantitative values.
 def read_replace():
     dir_path = os.path.dirname(os.path.realpath(__file__));                 
-    data = pd.read_csv(dir_path+"/IRIS.csv");                                                          # reads the dataset from the current working directory     
+    data = pd.read_csv(dir_path+"/IRIS.csv");                                                           # reads the dataset from the current working directory  
+    sns.set(style="ticks", color_codes=True)
+    g = sns.pairplot(data);     
     data.species.replace(['Iris-setosa', 'Iris-versicolor','Iris-virginica'], [1, 2, 3], inplace=True);  # replacing the nominal values
     data = data.sample(frac=1).reset_index(drop=True);                                                  # randomizing the dataset and resetting the index
+    
     return data;
 
 #kfold function. This function is used to implement the k-fold cross validation. It calls the train_model and test_model functions, finds the average of the accuracies and prints it to the user.
@@ -52,6 +55,7 @@ def chunkify(lst,n):
 # main function. You can change the k value to change the k fold cross validation
 def main():
   data = read_replace();
-  kfold(data,k=5);  
+  kfold(data,k=15);  
+  plt.show();
 if __name__== "__main__":
   main()
