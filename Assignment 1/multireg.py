@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 import seaborn as sns; 
+import copy
 #read_replace function. This function is used to read the dataset from the folder and replace the Nominal values with some quantitative values.
 def read_replace():
     dir_path = os.path.dirname(os.path.realpath(__file__));                 
@@ -20,7 +21,7 @@ def kfold(data,k):
         chunks = chunkify(data, k);                                                                     # dividing the dataset into chunks    
         acc = [];
         for i in range(k):
-            test_data = chunks[i];
+            test_data = chunks[i].copy();
             train_data = data.drop(test_data.index);                                                    # separating the test and training dataset
             betacap = train_model(train_data);  
             accuracy = test_model(betacap,test_data);
@@ -31,7 +32,7 @@ def kfold(data,k):
         exit;
 # train_model function. This function is used to train the model. It returns the coeffecients of the trained multivariate regression model.
 def train_model(train_data):
-    data = train_data
+    data = train_data.copy();
     train_data = data.drop('species',axis = 1);
     train_data= train_data.values;
     betacap = np.linalg.inv((train_data.transpose().dot(train_data))).dot(train_data.transpose().dot(data.species));             # beta = inverse((transp(X).X)).(transp(X).Y)
