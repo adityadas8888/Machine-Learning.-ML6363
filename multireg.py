@@ -56,7 +56,7 @@ def chunkify(lst,n):
 # main function. You can change the k value to change the k fold cross validation
 def main():
   data = read_replace();
-  kfold(data,k=15);  
+  kfold(data,k=3);  
   plt.show();
 if __name__== "__main__":
   main()
