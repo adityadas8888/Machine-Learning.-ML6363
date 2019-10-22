@@ -1,5 +1,9 @@
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!pitt.edu!zaphod.mps.ohio-state.edu!swrinde!network.ucsd.edu!mvb.saic.com!zippy.telcom.arizona.edu!bpavms.bpa.arizona.edu!dmittleman
 From: dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman)
+Newsgroups: comp.os.ms-windows.misc
 Subject: leaking memory resources in 3.1
+Message-ID: <29APR199309371113@bpavms.bpa.arizona.edu>
+Date: 29 Apr 93 16:37:00 GMT
 Organization: University of Arizona MIS Department
 Lines: 46
 NNTP-Posting-Host: bpavms.bpa.arizona.edu

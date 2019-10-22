@@ -1,7 +1,12 @@
 Nntp-Posting-Host: hawaii.et.byu.edu
 Lines: 15
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!news.byu.edu!news
+Message-ID: <?c$@byu.edu>
+Date: Thu, 22 Apr 93 09:23:34 MDT
 From: haymoree@alaska.et.byu.edu (Ed Haymore)
 Subject: Re: Delayed-Write-Caches
+Newsgroups: comp.sys.ibm.pc.hardware
+References: <1r627o$fnk@news.cs.tu-berlin.de>
 Distribution: world
 X-Newsreader: TIN [version 1.1 PL9]
 

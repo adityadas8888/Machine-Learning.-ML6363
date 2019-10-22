@@ -1,6 +1,12 @@
+Newsgroups: sci.crypt,alt.privacy.clipper
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!sdd.hp.com!news.cs.indiana.edu!mvanheyn@cs.indiana.edu
 From: Marc VanHeyningen <mvanheyn@cs.indiana.edu>
 Subject: Re: More technical details
+Message-ID: <4973.735275781@moose.cs.indiana.edu>
+Sender: mvanheyn@cs.indiana.edu
 Organization: Computer Science Dept, Indiana University
+References: <1993Apr19.134346.2620@ulysses.att.com>
+Date: Mon, 19 Apr 1993 22:16:21 -0500
 Lines: 43
 
 >	encrypted under K, then K will be encrypted under the unit key UK, 

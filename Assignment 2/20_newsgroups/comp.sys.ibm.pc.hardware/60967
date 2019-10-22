@@ -1,7 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.misc:34366 comp.sys.ibm.pc.hardware:60967
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!bb3.andrew.cmu.edu!andrew.cmu.edu!jd4q+
 From: Joe Eddy Demers <Coyote+@CMU.EDU>
+Newsgroups: comp.sys.ibm.pc,comp.sys.ibm.pc.misc,comp.sys.ibm.pc.hardware
 Subject: BIOS timer interrupts
+Date: Thu, 22 Apr 1993 14:26:53 -0400
 Organization: Sophomore, Math/Computer Science, Carnegie Mellon, Pittsburgh, PA
 Lines: 18
+Message-ID: <IfpiBhG00Vp3QXsm0t@andrew.cmu.edu>
 NNTP-Posting-Host: po2.andrew.cmu.edu
 
 Hello,

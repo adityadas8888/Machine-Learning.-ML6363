@@ -1,9 +1,14 @@
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!msuinfo!uchinews!raistlin!timbuk.cray.com!walter.cray.com!artilect!dpp
 From: dpp@cray.com (David Peterschmidt)
 Subject: Re: Can't set COM4
+Message-ID: <1993Apr21.110747.16394@walter.cray.com>
 Lines: 27
 Nntp-Posting-Host: artilect.cray.com
 Reply-To: dpp@cray.com
 Organization: Cray Research, Inc.
+References: <1r1nt7$mtc@fnnews.fnal.gov>
+Date: 21 Apr 93 11:07:47 CDT
 
 In article mtc@fnnews.fnal.gov, uchima@fncrdh.fnal.gov (Mike Uchima) writes:
 >I also am having a problem with COM4 on a G2K system.  I have a Gateway 2K 486DX/33 system with the ATI Ultrapro video card (identical to the system mentioned in the original posting, except 33MHz instead of 66).  For some reason, the system refuses to recognize COM4.  For example, if I configure the on-board (motherboard) COM ports for COM1/COM2, everything is fine; if I configure them for COM3/COM4, COM3 works OK, but COM4 is not recoznized.  The diagnostics shipped with the system, the MSD utility

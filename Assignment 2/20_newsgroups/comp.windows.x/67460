@@ -1,6 +1,11 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!darwin.sura.net!dtix.dt.navy.mil!relay-wo!relay!xobu!dlemoin
 From: dlemoin@xobu.nswc.navy.mil (D. lemoine)
 Subject: Colormap Problem
+Message-ID: <1993Apr28.191742.21536@relay.nswc.navy.mil>
+Sender: dlemoin@xobu (D. lemoine)
 Organization: F31
+Date: Wed, 28 Apr 1993 19:17:42 GMT
 Lines: 24
 
 I am saving an image on one machine and redisplaying the image on

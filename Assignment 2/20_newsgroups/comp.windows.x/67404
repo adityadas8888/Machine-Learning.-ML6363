@@ -1,8 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x:67404 comp.windows.x.intrinsics:1180 comp.windows.x.motif:16867
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!cs.utexas.edu!tamsun.tamu.edu!spatel
 From: spatel@cs.tamu.edu (Samir K Patel)
+Newsgroups: comp.windows.x,comp.windows.x.intrinsics,comp.windows.x.motif
 Subject: Background Processing in X Applications
+Date: 28 Apr 1993 04:38:38 GMT
 Organization: Computer Science Department, Texas A&M University
 Lines: 31
 Distribution: world
+Message-ID: <1rl1oeINNp6k@tamsun.tamu.edu>
 NNTP-Posting-Host: sparc94.cs.tamu.edu
 
 I have written a server program which makes socket connections to many nodes

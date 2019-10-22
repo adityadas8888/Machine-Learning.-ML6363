@@ -1,8 +1,14 @@
+Newsgroups: comp.os.ms-windows.misc
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!ub!csn!teal.csn.org!richardf
 From: richardf@teal.csn.org (IrieMon)
 Subject: Re: leaking memory resources in 3.1
+Message-ID: <C6Aw83.H7v@csn.org>
+Sender: news@csn.org (The Daily Planet)
 Nntp-Posting-Host: teal.csn.org
 Organization: Colorado SuperNet, Inc.
 X-Newsreader: Tin 1.1 PL4
+References: <29APR199309371113@bpavms.bpa.arizona.edu>
+Date: Fri, 30 Apr 1993 14:28:50 GMT
 Lines: 13
 
 dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:

@@ -1,7 +1,12 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!uwm.edu!msuinfo!uchinews!chas
 From: chas@stax.uchicago.edu (Charles Blair)
 Subject: xnlock / xdm
+Message-ID: <1993May16.041013.5981@midway.uchicago.edu>
+Sender: news@uchinews.uchicago.edu (News System)
 Organization: University of Chicago Computing Organizations
 X-Newsreader: TIN [version 1.1 PL9]
+Date: Sun, 16 May 1993 04:10:13 GMT
 Lines: 25
 
 I am using xnlock as the screensaver for a PC-based X server. However,

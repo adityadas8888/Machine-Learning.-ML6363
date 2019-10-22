@@ -1,8 +1,14 @@
+Xref: cantaloupe.srv.cs.cmu.edu misc.wanted:31180 comp.sys.ibm.pc.hardware:60819
+Newsgroups: misc.wanted,comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!weyrich!orville
 From: orville%weyrich@uunet.uu.net (Orville R. Weyrich)
 Subject: WANTED: Floppy controller that can handle multiple floppies
+Message-ID: <1993Apr21.161849.3014@weyrich.UUCP>
+Sender: orville@weyrich.UUCP (Orville R. Weyrich)
 Reply-To: uunet.uu.net!weyrich!orville
 Organization: Weyrich Computer Consulting
 Distribution: usa
+Date: Wed, 21 Apr 93 16:18:49 GMT
 Lines: 27
 
 I need to duplicate a bunch of floppy disks (3.5") and ideally would like to

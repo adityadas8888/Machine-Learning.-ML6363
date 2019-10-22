@@ -1,8 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x.motif:16890 comp.windows.x:67448
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!usc!news.bbn.com!swalker
 From: swalker@bbn.com (Susan Walker)
+Newsgroups: comp.windows.x.motif,comp.windows.x
 Subject: XmTextField truncation with LANG bug(???)
+Date: 28 Apr 1993 19:17:09 GMT
 Organization: Bolt Beranek and Newman (BBN)
 Lines: 42
 Distribution: world
+Message-ID: <lttm1lINNrli@news.bbn.com>
 NNTP-Posting-Host: spcsun18.bbn.com
 
 I have found a situation which I think is a bug in X or Motif, but I'm hoping

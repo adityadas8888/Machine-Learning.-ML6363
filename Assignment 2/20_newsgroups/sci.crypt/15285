@@ -1,7 +1,13 @@
+Newsgroups: sci.crypt
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!usenet.ufl.edu!eng.ufl.edu!spool.mu.edu!news.cs.indiana.edu!mvanheyn@cs.indiana.edu
 From: Marc VanHeyningen <mvanheyn@cs.indiana.edu>
 Subject: How does it really work? (was Re: text of White House announcement and Q&As on clipper chip encryption)
+Message-ID: <29758.735074950@moose.cs.indiana.edu>
+Sender: mvanheyn@cs.indiana.edu
 Organization: Computer Science Dept, Indiana University
+References: <C5L17v.GH5@dove.nist.gov>
 Distribution: na
+Date: Sat, 17 Apr 1993 14:29:10 -0500
 Lines: 57
 
 This announcement is somewhat disconcerting; it doesn't do anything

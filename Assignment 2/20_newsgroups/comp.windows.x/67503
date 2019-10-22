@@ -1,6 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x:67503 comp.unix.aix:24648
+Newsgroups: comp.windows.x,comp.unix.aix
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!math.fu-berlin.de!unidui!rrz.uni-koeln.de!news-rhrz!unitas.or.uni-bonn.de!schietke
 From: schietke@unitas.or.uni-bonn.de (Juergen Schietke)
 Subject: chars of big fonts are shown partially
+Message-ID: <1993Apr30.141109.15604@news.rhrz.uni-bonn.de>
+Sender: news@news.rhrz.uni-bonn.de
 Organization: Research Institute for Discrete Mathematics, Bonn
+Date: Fri, 30 Apr 93 14:11:09 GMT
 Lines: 30
 
 Hi all,

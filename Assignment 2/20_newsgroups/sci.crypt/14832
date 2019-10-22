@@ -1,9 +1,17 @@
+Xref: cantaloupe.srv.cs.cmu.edu alt.security.ripem:212 sci.crypt:14832 comp.security.misc:3208 alt.security:9770 comp.mail.misc:12145 alt.answers:132 comp.answers:358 news.answers:7097
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!uwm.edu!ux1.cso.uiuc.edu!usenet.ucs.indiana.edu!silver.ucs.indiana.edu!mvanheyn
 From: mvanheyn@cs.indiana.edu (Marc VanHeyningen)
+Newsgroups: alt.security.ripem,sci.crypt,comp.security.misc,alt.security,comp.mail.misc,alt.answers,comp.answers,news.answers
 Subject: RIPEM Frequently Noted Vulnerabilities
+Message-ID: <C4qoH8.CHE@usenet.ucs.indiana.edu>
+Date: 31 Mar 93 05:55:55 GMT
 Article-I.D.: usenet.C4qoH8.CHE
 Expires: Thu, 20 May 1993 00:00:00 GMT
+Sender: news@usenet.ucs.indiana.edu (USENET News System)
+Followup-To: alt.security.ripem
 Organization: Computer Science, Indiana University
 Lines: 163
+Approved: news-answers-request@MIT.EDU
 Content-Type: text/x-usenet-FAQ; version=1.0; title="RIPEM Attacks"
 Originator: mvanheyn@silver.ucs.indiana.edu
 Supersedes: <C3JvK9.Ey1@usenet.ucs.indiana.edu>

@@ -1,6 +1,12 @@
+Newsgroups: comp.os.ms-windows.misc
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!ux1.cso.uiuc.edu!newsrelay.iastate.edu!news.iastate.edu!pv3437.vincent.iastate.edu!digdug
 From: digdug@iastate.edu (Doug V Tran)
 Subject: Re: leaking memory resources in 3.1
+Message-ID: <digdug.736223795@pv3437.vincent.iastate.edu>
+Sender: news@news.iastate.edu (USENET News System)
 Organization: Iowa State University, Ames IA
+References: <29APR199309371113@bpavms.bpa.arizona.edu> <C6Aw83.H7v@csn.org> <1993Apr30.180317.5618@seas.gwu.edu>
+Date: Sat, 1 May 1993 02:36:35 GMT
 Lines: 39
 
 Here's an interesting table showing how much resources an application

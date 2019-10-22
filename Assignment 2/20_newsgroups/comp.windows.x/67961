@@ -1,10 +1,18 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x:67961 news.answers:8374 comp.answers:674
+Newsgroups: comp.windows.x,news.answers,comp.answers
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!math.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!gatech!destroyer!cs.ubc.ca!unixg.ubc.ca!kakwa.ucs.ualberta.ca!alberta!art
 From: art@cs.UAlberta.CA (Art Mulder)
 Subject: comp.windows.x: Getting more performance out of X.  FAQ
+Message-ID: <art.737149088@spirit-riv>
+Followup-To: poster
 Summary: This posting contains a list of suggestions about what you can do to get the best performance out of X on your workstation -- without buying more hardware.
 Keywords: FAQ speed X
+Sender: news@cs.UAlberta.CA (News Administrator)
 Nntp-Posting-Host: spirit-riv.cs.ualberta.ca
 Reply-To: art@cs.ualberta.ca (Art Mulder)
 Organization: University of Alberta, Edmonton, Canada
+Date: Tue, 11 May 1993 19:38:08 GMT
+Approved: news-answers-request@MIT.Edu
 Expires: Sun, 20 Jun 1993 23:00:00 GMT
 Lines: 676
 

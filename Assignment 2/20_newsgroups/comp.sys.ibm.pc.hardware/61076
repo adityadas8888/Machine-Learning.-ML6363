@@ -1,7 +1,13 @@
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!agate!linus!linus.mitre.org!mbunix.mitre.org!jcmorris
 From: jcmorris@mbunix.mitre.org (Morris)
 Subject: Re: Soundblaster IRQ and Port settings
+Message-ID: <1993Apr23.132321.29407@linus.mitre.org>
+Sender: news@linus.mitre.org (News Service)
 Nntp-Posting-Host: mbunix.mitre.org
 Organization: The MITRE Corporation, Bedford, MA
+References: <1993Apr22.171350.15089@spectrum.xerox.com>
+Date: Fri, 23 Apr 1993 13:23:21 GMT
 Lines: 42
 
 [discussing the use of IRQ 7]

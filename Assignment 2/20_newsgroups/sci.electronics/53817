@@ -1,7 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu rec.audio:63861 sci.electronics:53817
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!sdd.hp.com!col.hp.com!johnr
 From: johnr@col.hp.com (John T. Rasper)
+Newsgroups: rec.audio,sci.electronics
 Subject: ADCOM GTP500II IR sensor & repeater spec's?
+Date: 20 Apr 1993 16:44:22 GMT
 Organization: HP Colorado Springs Division
 Lines: 25
+Message-ID: <1r1996INNijp@hp-col.col.hp.com>
 NNTP-Posting-Host: hplsdvf.col.hp.com
 
 Does anyone know the details of the interface (5 wire din) for the

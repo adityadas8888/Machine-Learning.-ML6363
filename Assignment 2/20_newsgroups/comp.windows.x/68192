@@ -1,5 +1,10 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x:68192 comp.sys.sun.apps:4269
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!zaphod.mps.ohio-state.edu!sdd.hp.com!think.com!enterpoop.mit.edu!eru.mt.luth.se!lunic!sunic!celsiustech.se!ppan
 From: ppan@celsiustech.se (Per Andersson)
+Newsgroups: comp.windows.x,comp.sys.sun.apps,comp.os.aix
 Subject: X, shared libraries, and replacing modules in them?
+Message-ID: <1993May16.192755.10834@celsiustech.se>
+Date: 16 May 93 19:27:55 GMT
 Organization: CelsiusTech AB
 Lines: 16
 

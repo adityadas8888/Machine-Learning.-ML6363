@@ -1,5 +1,9 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!swrinde!elroy.jpl.nasa.gov!ames!decwrl!pa.dec.com!hydrox.enet.dec.com!mek
 From: mek@hydrox.enet.dec.com (Mark Klamerus)
+Message-ID: <9305191320.AA05560@enet-gw.pa.dec.com>
 Subject: EventHandlers on XmPushButtons
+Date: Wed, 19 May 93 06:20:22 PDT
 X-Received: by usenet.pa.dec.com; id AA29453; Wed, 19 May 93 06:20:27 -0700
 X-Received: by enet-gw.pa.dec.com; id AA05560; Wed, 19 May 93 06:20:22 -0700
 X-Received: from hydrox.enet; by decwrl.enet; Wed, 19 May 93 06:20:22 PDT

@@ -1,6 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu rec.puzzles:22622 sci.crypt:15197 sci.math:43130
+Newsgroups: rec.puzzles,sci.crypt,sci.math
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!agate!ames!biersch!jru
 From: jru@Comtech.com (Jimmy R. Upton)
 Subject: [Rubick] Shortest Path Algorithm - Status?
+Message-ID: <1993Apr16.202527.27557@Comtech.com>
+Followup-To: rec.puzzles
 Organization: Comtech Labs Inc.
+Date: Fri, 16 Apr 1993 20:25:27 GMT
 Lines: 25
 
 What is the expected run time (+/- a factor of 10) on a 486DX/50

@@ -1,7 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu alt.security.pgp:2528 sci.crypt:15194 comp.sys.mac.apps:35003
+Newsgroups: alt.security.pgp,sci.crypt,comp.sys.mac.apps
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!elroy.jpl.nasa.gov!decwrl!netcomsv!netcom.com!grady
 From: grady@netcom.com (1016/2EF221)
 Subject: Re: MacPGP 2.2 Source Problems
+Message-ID: <gradyC5LE6y.E2H@netcom.com>
 Organization: capriccioso
 X-Newsreader: TIN [version 1.1 PL6]
+References: <gradyC5LA4y.5DL@netcom.com>
+Date: Fri, 16 Apr 1993 19:59:21 GMT
 Lines: 19
 
 Yes -- my error -- you will need the DIFF between the

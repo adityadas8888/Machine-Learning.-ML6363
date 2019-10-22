@@ -1,8 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.open-look:8625 comp.windows.x:68326
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!darwin.sura.net!news-feed-1.peachnet.edu!concert!epa-rtp!hermes.ath.epa.gov!helios.ath.epa.gov!kbw
 From: kbw@helios.ath.epa.gov (Kevin B. Weinrich)
+Newsgroups: comp.windows.open-look,comp.windows.x
 Subject: Tcpview doesn't read my XKeysymDB file. Howcum?
+Date: 19 May 1993 16:06:35 GMT
 Organization: Computer Sciences Corp.
 Lines: 25
 Distribution: world
+Message-ID: <1tdlub$hu@hermes.ath.epa.gov>
 NNTP-Posting-Host: helios.ath.epa.gov
 
 Any Tcpview-for-Sun users out there?  I pulled down the pre-compiled

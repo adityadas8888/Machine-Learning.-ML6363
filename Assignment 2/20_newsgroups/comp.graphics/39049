@@ -1,8 +1,15 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.sgi.misc:2117 comp.graphics:39049
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!howland.reston.ans.net!noc.near.net!uunet!nwnexus!mpdillon
 From: mpdillon@halcyon.com (Michael Dillon)
+Newsgroups: comp.sys.sgi.misc,comp.graphics
 Subject: Re: Looking for polygon "convexifier"
+Date: 1 May 1993 23:28:28 -0700
 Organization: "A World of Information at your Fingertips"
 Lines: 17
+Sender: news@nwfocus.wa.com
 Distribution: world
+Message-ID: <1rvpmc$3dd@nwfocus.wa.com>
+References: <1rq5m5INNmpp@harpo.uccs.edu>
 NNTP-Posting-Host: nwfocus.wa.com
 
 >Does anyone know where I can find a code which would take concave

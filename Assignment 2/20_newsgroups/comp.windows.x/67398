@@ -1,5 +1,9 @@
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!caen!batcomputer!munnari.oz.au!bruce.cs.monash.edu.au!merlin!iwsd01.itwol.bhp.com.au!eedwsa.itwol.bhp.com.au!visser
+Newsgroups: comp.windows.x
 Subject: Re-entrancy of Xlib functions. Known problem???
+Message-ID: <1993Apr29.150251.648@iwsd01.itwol.bhp.com.au>
 From: visser@eedwsa.itwol.bhp.com.au (Martin Visser)
+Date: 29 Apr 93 15:02:51 +1000
 Distribution: world
 Nntp-Posting-Host: eedwsa.itwol.bhp.com.au
 Lines: 27

@@ -1,7 +1,11 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!noc.near.net!uunet!psgrain!ee.und.ac.za!ucthpx!casper.cs.uct.ac.za!asecchia
 From: asecchia@cs.uct.ac.za (Adrian Secchia)
 Subject: Raytracing Colours?
+Message-ID: <C64vz9.G4x@cs.uct.ac.za>
 Keywords: raytracer colours realism vectors
 Organization: Computer Science Department, University of Cape Town
+Date: Tue, 27 Apr 1993 08:37:57 GMT
 Lines: 25
 
 I have a question about recursive, backward raytracing.

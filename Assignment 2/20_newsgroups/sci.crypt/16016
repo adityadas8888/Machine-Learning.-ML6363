@@ -1,8 +1,13 @@
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!noc.near.net!uunet!vnet.IBM.COM
 From: tarnold@vnet.IBM.COM (Todd W. Arnold)
+Message-ID: <19930426.095245.535@almaden.ibm.com>
+Date: Mon, 26 Apr 93 12:46:17 EDT
+Newsgroups: sci.crypt
 Subject: Re: How sensible is DES towards bit-errors?
 Organization: IBM Cryptographic Facility Development
 Disclaimer: This posting represents the poster's views, not those of IBM
 News-Software: UReply 3.1
+References: <ad.735831059@cat>
 Lines: 15
 
 In <ad.735831059@cat> Axel Dunkel writes:

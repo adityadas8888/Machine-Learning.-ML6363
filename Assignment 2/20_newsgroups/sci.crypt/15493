@@ -1,7 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.programming:4651 sci.math:43262 sci.crypt:15493
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!msuinfo!scss3.cl.msu.edu!mrr
 From: mrr@scss3.cl.msu.edu (Mark Riordan)
+Newsgroups: comp.programming,sci.math,sci.crypt
 Subject: List of large integer arithmetic packages
+Date: 20 Apr 1993 16:47:03 GMT
 Organization: Michigan State University
 Lines: 285
+Message-ID: <1r19e7$jkr@msuinfo.cl.msu.edu>
 NNTP-Posting-Host: scss3.cl.msu.edu
 Summary: C functions to do arbitrary-precision arith
 X-Newsreader: TIN [version 1.1 PL8]

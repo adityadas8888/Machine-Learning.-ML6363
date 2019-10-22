@@ -1,5 +1,10 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!doc.ic.ac.uk!aixssc.uk.ibm.com!yktnews.watson.ibm.com!hawnews.watson.ibm.com!klaatu!stein
 From: stein@watson.ibm.com (Arthur Stein)
 Subject: Scientific Visualization of Chemical Systems
+Sender: news@hawnews.watson.ibm.com (NNTP News Poster)
+Message-ID: <C65t07.1Ct@hawnews.watson.ibm.com>
+Date: Tue, 27 Apr 1993 20:31:18 GMT
 Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
 Nntp-Posting-Host: klaatu.watson.ibm.com
 Organization: Visualization Systems, IBM
@@ -14,6 +19,7 @@ Keywords: computer graphics, ray tracing, volume rendering
                   Course Description
  
  Within the past ten years, the  simulation and  modeling of
+Followup-To: FYI
 Lines: 197
 
 molecules has evolved from an esoteric academic subject into

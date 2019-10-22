@@ -1,8 +1,15 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x.motif:16913 comp.windows.x:67467
+Newsgroups: comp.windows.x.motif,comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!sdd.hp.com!hp-cv!hp-pcd!hpcvusn!hpcvusj.cv.hp.com!tommc
 From: tommc@hpcvusj.cv.hp.com (Tom McFarland)
 Subject: Re: XmTextField truncation with LANG bug(???)
+Message-ID: <1993Apr29.200746.14198@hpcvusn.cv.hp.com>
+Sender: nobody@hpcvusn.cv.hp.com (Nobody - UID must be 99999)
 Nntp-Posting-Host: hpcvusj.cv.hp.com
 Reply-To: tommc@cv.hp.com
 Organization: Hewlett Packard UTD-Corvallis
+References:  <lttm1lINNrli@news.bbn.com>
+Date: Thu, 29 Apr 1993 20:07:46 GMT
 Lines: 40
 
 In article <lttm1lINNrli@news.bbn.com>, swalker@bbn.com (Susan Walker) writes:

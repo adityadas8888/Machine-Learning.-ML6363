@@ -1,6 +1,11 @@
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!ulowell!cs.ulowell.edu!mcook
 From: mcook@cs.ulowell.edu (Michael Cook)
 Subject: CMOS Checksum error
+Message-ID: <C5uAoq.5v@ulowell.ulowell.edu>
+Sender: mcook@cs.ulowell.edu
 Organization: UMass-Lowell Computer Science
+Date: Wed, 21 Apr 1993 15:22:02 GMT
 Lines: 10
 
 Recently, I have been getting a CMOS Checksum error when I first turn on my

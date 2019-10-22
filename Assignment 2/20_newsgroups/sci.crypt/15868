@@ -1,8 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.databases.oracle:4258 comp.security.misc:3550 sci.crypt:15868
+Newsgroups: comp.databases.oracle,comp.security.misc,sci.crypt
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!gatech!howland.reston.ans.net!usc!sol.ctr.columbia.edu!eff!world!fw
 From: fw@world.std.com (forrest d whitcher)
 Subject: SUMMARY: responses / research on oracle password security
+Message-ID: <C5yG4I.Hx2@world.std.com>
 Summary: oracle password encryption, security
 Keywords: oracle rdbms os/2 unix network password DES
 Organization: The World Public Access UNIX, Brookline, MA
+Date: Fri, 23 Apr 1993 21:09:53 GMT
 Lines: 68
 
 My original post was:

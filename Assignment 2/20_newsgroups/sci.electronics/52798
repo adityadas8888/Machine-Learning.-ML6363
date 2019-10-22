@@ -1,8 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!moe.ksu.ksu.edu!crcnis1.unl.edu!mpaul
 From: mpaul@unl.edu (marxhausen paul)
+Newsgroups: sci.electronics
 Subject: How to kill AC inductive load spiking?
+Date: 2 Apr 1993 14:25:04 GMT
 Organization: University of Nebraska--Lincoln	
 Lines: 20
 Distribution: world
+Message-ID: <1phic0INNg35@crcnis1.unl.edu>
 NNTP-Posting-Host: unlinfo.unl.edu
 
 Is there a fast 'n dirty way to kill the line spiking that occurs when

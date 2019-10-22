@@ -1,7 +1,13 @@
+Newsgroups: sci.crypt
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!munnari.oz.au!cs.mu.OZ.AU!koonda.acci.com.au!ggr
 From: ggr@koonda.acci.com.au (Greg Rose)
 Subject: Authentication and one-time-pads (was: Re: Advanced one time pad)
+Message-ID: <9312311.1752@mulga.cs.mu.OZ.AU>
 Summary: presents one-time-pad based MAC
+Sender: news@cs.mu.OZ.AU
 Organization: Australian Computing and Communications Institute
+References: <1rshgc$d8k@sol.TIS.COM> <38678@optima.cs.arizona.edu> <1s1dbmINNehb@elang05.acslab.umbc.edu>
+Date: Mon, 3 May 1993 01:21:10 GMT
 Lines: 93
 
 In article <1s1dbmINNehb@elang05.acslab.umbc.edu> olson@umbc.edu (Bryan Olson; CMSC (G)) writes:

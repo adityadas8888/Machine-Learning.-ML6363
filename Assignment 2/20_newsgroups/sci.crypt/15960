@@ -1,6 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu sci.crypt:15960 alt.security:10126 comp.org.eff.talk:17208 comp.security.misc:3564 comp.org.acm:1714 comp.org.ieee:1651
+Newsgroups: sci.crypt,alt.security,comp.org.eff.talk,comp.security.misc,comp.org.acm,comp.org.ieee
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!asuvax!ncar!csn!yuma!holland
 From: holland@CS.ColoState.EDU (douglas craig holland)
 Subject: Re: Tempest
+Sender: news@yuma.ACNS.ColoState.EDU (News Account)
+Message-ID: <Apr25.063606.25541@yuma.ACNS.ColoState.EDU>
+Date: Sun, 25 Apr 1993 06:36:06 GMT
 Distribution: na
+References: <1993Apr22.132638.19448@ringer.cs.utsa.edu> <1993Apr24.233742.26839@lehman.com> <1993Apr25.024032.26935@ringer.cs.utsa.edu>
 Nntp-Posting-Host: beethoven.cs.colostate.edu
 Organization: Colorado State University, Computer Science Department
 Lines: 25

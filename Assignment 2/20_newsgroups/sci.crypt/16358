@@ -1,7 +1,13 @@
+Newsgroups: sci.crypt
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!ukma!mont!mizzou1.missouri.edu!C445585
 From: C445585@mizzou1.missouri.edu (John Kelsey)
 Subject: One-time pad authentication?
+Message-ID: <16BC2116C6.C445585@mizzou1.missouri.edu>
+Sender: news@mont.cs.missouri.edu
 Nntp-Posting-Host: mizzou1.missouri.edu
 Organization: University of Missouri
+References: <9304290024.AA02249@pizzabox.demon.co.uk> <strnlghtC6BKwv.19C@netcom.com>
+Date: Sun, 02 May 93 19:49:21 CDT
 Lines: 51
 
    I can think of a couple of ways of guaranteeing authenticity in a one-time

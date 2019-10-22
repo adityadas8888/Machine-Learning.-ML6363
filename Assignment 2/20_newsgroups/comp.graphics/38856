@@ -1,7 +1,11 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!ira.uka.de!math.fu-berlin.de!aa.cad.slb.com!aa.cad.slb.com!gorgen
 From: gorgen@ann-arbor.applicon.slb.com (David Gorgen)
 Subject: Need help: Z-buffering lines & areas together
 Organization: Applicon, Inc.; Ann Arbor, MI (USA)
+Date: Tue, 27 Apr 1993 22:37:51 GMT
 Keywords: Z-buffer, roundoff, lines, areas
+Message-ID: <gorgen.735950271@aa.cad.slb.com>
 Lines: 84
 
 I'm asking for help on a sticky problem involving unreasonably low

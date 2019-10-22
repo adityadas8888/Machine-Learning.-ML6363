@@ -1,7 +1,13 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!zaphod.mps.ohio-state.edu!uwm.edu!caen!batcomputer!munnari.oz.au!bunyip.cc.uq.oz.au!griffin!citadel!kurango!anthony
 From: anthony@kurango.cit.gu.edu.au (Anthony Thyssen)
 Subject: Re: Automatically Configuring DISPLAY variable
+Message-ID: <anthony.737364424@citadel.cit.gu.edu.au>
 Keywords: DISPLAY, X Windows, .cshrc Unix
+Sender: news@citadel.cit.gu.edu.au
 Organization: Griffith University.
+References: <1suk7j$19g@stimpy.css.itd.umich.edu>
+Date: Fri, 14 May 1993 07:27:04 GMT
 Lines: 114
 
 ainman@css.itd.umich.edu (Andrew Douglas Inman) writes:

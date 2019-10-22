@@ -1,7 +1,13 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!ufo!pop!david
 From: david@pop (David E. Smyth)
 Subject: Re: R5 table widget causing trouble with XtQueryGeometry
+Message-ID: <1993Apr29.225751.25005@jpl-devvax.jpl.nasa.gov>
+Sender: usenet@jpl-devvax.jpl.nasa.gov (For NNTP so rrn will be able to post)
 Nntp-Posting-Host: pop
 Organization: Jet Propulsion Laboratory (NASA)
+References: <1qu8siINN6ev@uniko.uni-koblenz.de>
+Date: Thu, 29 Apr 1993 22:57:51 GMT
 Lines: 102
 
 I just got a bug report and a fix for this exact problem from

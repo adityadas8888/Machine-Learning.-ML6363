@@ -1,6 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.robotics:5319 sci.electronics:53607
+Newsgroups: comp.robotics,sci.electronics
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!taco!Ziggy.csl.ncsu.edu!aras
 From: aras@Ziggy.csl.ncsu.edu (Caglan M. Aras)
 Subject: Polaroid Range finder interference-Help!
+Message-ID: <1993Apr16.155010.26393@ncsu.edu>
+Sender: news@ncsu.edu (USENET News System)
 Organization: /etc/organization
+Date: Fri, 16 Apr 1993 15:50:10 GMT
 Lines: 26
 
 We have a setup with with 13 polaroid transducers and rangefinders. We

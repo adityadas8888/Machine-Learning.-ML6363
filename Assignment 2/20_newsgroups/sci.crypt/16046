@@ -1,7 +1,13 @@
+Newsgroups: sci.crypt
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!paladin.american.edu!europa.eng.gtefsd.com!darwin.sura.net!zaphod.mps.ohio-state.edu!wupost!mont!mizzou1.missouri.edu!C445585
 From: C445585@mizzou1.missouri.edu (John Kelsey)
 Subject: Re: Implementing a Diffie-Hellman key exchange.
+Message-ID: <16BBC1252F.C445585@mizzou1.missouri.edu>
+Sender: news@mont.cs.missouri.edu
 Nntp-Posting-Host: mizzou1.missouri.edu
 Organization: University of Missouri
+References:  <C602pB.Fs@consent.uucp>
+Date: Mon, 26 Apr 93 20:50:54 CDT
 Lines: 18
 
    You should probably use numbers much larger than 64-bits.  Also, you

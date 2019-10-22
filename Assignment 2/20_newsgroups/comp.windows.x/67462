@@ -1,8 +1,14 @@
+Xref: cantaloupe.srv.cs.cmu.edu alt.sources:8159 comp.windows.x:67462 comp.lang.perl:16883
+Newsgroups: alt.sources,comp.windows.x,comp.lang.perl
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!cs.utexas.edu!utnut!torn!nott!bnrgate!bnr.co.uk!pipex!uknet!glasgow!sinclair
 From: sinclair@dcs.glasgow.ac.uk (Duncan Sinclair)
 Subject: Glasgow RX - remote execution of X programs, Part01/01
+Message-ID: <C67pqH.1Ip@dcs.glasgow.ac.uk>
+Followup-To: alt.sources.d
 Summary: Nice program to do remote xterms.
 Keywords: perl X remote execution
 Organization: Glasgow University Computing Science Dept.
+Date: Wed, 28 Apr 1993 21:15:53 GMT
 Lines: 976
 
 [[ I posted this a few weeks back, but all I got back was an error

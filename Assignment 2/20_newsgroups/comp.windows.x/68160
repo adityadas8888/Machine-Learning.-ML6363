@@ -1,7 +1,12 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!rochester!rocksanne!spock!jwhit
 From: jwhit@wbst845e.xerox.com (Jeff Whitmire)
 Subject: Need help compiling xtmenu
+Message-ID: <1993May14.151830.20094@spectrum.xerox.com>
+Sender: news@spectrum.xerox.com
 Reply-To: jwhit@wbst845e.xerox.com
 Organization: Xerox Corporation
+Date: Fri, 14 May 1993 15:18:30 GMT
 
 I am having trouble compiling xtmenu.  I am running on a Sparc IPC
 using SunOS 4.1.1 and OpenWindows 3.  I am getting undefined references

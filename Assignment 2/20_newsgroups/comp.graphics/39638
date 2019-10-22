@@ -1,11 +1,19 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.graphics:39638 alt.graphics.pixutils:5494 alt.binaries.pictures.utilities:4559 alt.binaries.pictures.d:9168 alt.binaries.pictures.erotica.d:15612 comp.answers:741 alt.answers:314 news.answers:8519
+Newsgroups: comp.graphics,alt.graphics.pixutils,alt.binaries.pictures.utilities,alt.binaries.pictures.d,alt.binaries.pictures.erotica.d,comp.answers,alt.answers,news.answers
+Path: cantaloupe.srv.cs.cmu.edu!tgl
 From: tgl+@cs.cmu.edu (Tom Lane)
 Subject: JPEG image compression: Frequently Asked Questions
+Message-ID: <jpeg-faq_737608860@g.gp.cs.cmu.edu>
+Followup-To: alt.binaries.pictures.d
 Summary: Useful info about JPEG (JPG) image files and programs
 Keywords: JPEG, image compression, FAQ
+Sender: news@cs.cmu.edu (Usenet News System)
 Supersedes: <jpeg-faq_736398890@g.gp.cs.cmu.edu>
 Nntp-Posting-Host: g.gp.cs.cmu.edu
 Reply-To: jpeg-info@uunet.uu.net
 Organization: School of Computer Science, Carnegie Mellon
+Date: Mon, 17 May 1993 03:21:08 GMT
+Approved: news-answers-request@MIT.Edu
 Expires: Mon, 14 Jun 1993 03:21:00 GMT
 Lines: 1041
 

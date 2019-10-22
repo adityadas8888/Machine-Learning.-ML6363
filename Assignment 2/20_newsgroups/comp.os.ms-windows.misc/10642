@@ -1,8 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.os.ms-windows.misc:10642 comp.os.ms-windows.programmer.misc:9813
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!darwin.sura.net!news-feed-1.peachnet.edu!gatech!usenet.rpi.edu!usenet.rpi.edu!wiseb
 From: wiseb@colossus.cs.rpi.edu (Bowden Wise)
+Newsgroups: comp.os.ms-windows.misc,comp.os.ms-windows.programmer.misc
 Subject: Deriving from class Object with OWL
+Date: 12 May 1993 18:47:10 GMT
 Organization: Rensselaer Polytechnic Institute Computer Science, Troy NY
 Lines: 30
 Distribution: comp
+Message-ID: <1srgne$m4i@usenet.rpi.edu>
 NNTP-Posting-Host: colossus.cs.rpi.edu
 
 I am trying to define my own class derived from the Object class so

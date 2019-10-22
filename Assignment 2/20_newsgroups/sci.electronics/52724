@@ -1,9 +1,15 @@
+Newsgroups: sci.electronics
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!swrinde!zaphod.mps.ohio-state.edu!cs.utexas.edu!utnut!nott!cu23.crl.aecl.ca!wu2.wl.aecl.ca!schellew
 From: schellew@wu2.wl.aecl.ca (Wayne Schellekens)
 Subject: WANTED: DRAM Controller for use with MC68HC16
+Message-ID: <1993Apr5.205055.27475@cu23.crl.aecl.ca>
 Keywords: DRAM, HC16
+Sender: news@cu23.crl.aecl.ca (USENET News System)
 Nntp-Posting-Host: wu2.wl.aecl.ca
 Organization: AECL Research, Whiteshell Laboratories
+References: <C50zsC.LM0@acsu.buffalo.edu>
 Distribution: na
+Date: Mon, 5 Apr 1993 20:50:55 GMT
 Lines: 25
 
 For an upcoming project I want to use 4 Megs of DRAM configured as two 2

@@ -1,6 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.lang.postscript:18537 comp.windows.x:68201 comp.windows.x.apps:2743 comp.text.tex:30754
+Newsgroups: comp.lang.postscript,comp.windows.x,comp.windows.x.apps,comp.text.tex
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!darwin.sura.net!haven.umd.edu!uunet!mcsun!ieunet!curia!pflynn
 From: pflynn@curia.ucc.ie (Peter Flynn)
 Subject: Compiling ghostview under Sun OpenWindows 3
+Message-ID: <C75z4A.8r7@curia.ucc.ie>
 Organization: University College, Cork
+References: <C6tGoJ.20J@inmet.camb.inmet.com> <gordons.737161050@mon> <604@ftms.UUCP>
+Date: Mon, 17 May 1993 09:16:57 GMT
 Lines: 16
 
 Due it seems to Sun's crapulous organisation of the X libraries and includes,

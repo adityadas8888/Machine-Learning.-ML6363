@@ -1,6 +1,11 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!network.ucsd.edu!news.cerf.net!qdeck!angel.qdeck.com!support
 From: support@qdeck.com (Technical Support)
 Subject: Re: Desqview/X over TCP/IP: how reliable? how is it implemented?
 Organization: Quarterdeck Office Systems, Santa Monica CA
+Date: Fri, 30 Apr 1993 23:05:44 GMT
+Message-ID: <1993Apr30.230544.12962@qdeck.com>
+References: <C6BFLB.KEM@cs.columbia.edu>
 Lines: 46
 
 In article <C6BFLB.KEM@cs.columbia.edu> ethan@cs.columbia.edu (Ethan Solomita) writes:

@@ -1,8 +1,12 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!decwrl!csus.edu!netcom.com!nagle
 From: nagle@netcom.com (John Nagle)
 Subject: Oriented bounding box generation?
+Message-ID: <nagleC76KqK.BnG@netcom.com>
 Summary: Want bounding box generator
 Keywords: bounding box oriented 3D
 Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Date: Mon, 17 May 1993 17:03:55 GMT
 Lines: 12
 
        I'm looking for code that will generate a minimum-volume oriented

@@ -1,6 +1,11 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!mcsun!sunic!aun.uninett.no!trane.uninett.no!ugle.unit.no!lise.unit.no!iharkest
 From: iharkest@Lise.Unit.NO (Inge Harkestad)
 Subject: Tangent vectors of Kochanek-Bartels splines
+Message-ID: <1993Apr28.155100.1435@ugle.unit.no>
+Sender: news@ugle.unit.no (NetNews Administrator)
 Organization: University of Trondheim
+Date: Wed, 28 Apr 93 15:51:00 GMT
 Lines: 33
 
 I'm working on a system which uses a given set of 3D key frame

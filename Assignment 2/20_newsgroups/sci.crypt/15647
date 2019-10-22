@@ -1,6 +1,11 @@
+Newsgroups: sci.crypt
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!noc.near.net!chpc.chpc.org!rboudrie
 From: rboudrie@chpc.org (Rob Boudrie)
 Subject: Re: How to detect use of an illegal cipher?
+Message-ID: <1993Apr21.171216.9342@chpc.org>
 Organization: Center For High Perf. Computing of WPI; Marlboro Ma
+References: <1qn74nINNi38@golden.kaleida.com> <betel.734997645@camelot> <5wv5__m@rpi.edu>
+Date: Wed, 21 Apr 1993 17:12:16 GMT
 Lines: 25
 
 >As for my impressions of the whole scheme It seems that instead of trying to

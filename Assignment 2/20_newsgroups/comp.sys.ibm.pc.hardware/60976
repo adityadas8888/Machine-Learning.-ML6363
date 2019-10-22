@@ -1,12 +1,18 @@
+Newsgroups: comp.sys.ibm.pc.hardware,comp.dcom.lans
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!vaxeline.ftp.com!cream.ftp.com!jbvb
 From: jbvb@vax.ftp.com  (James B. VanBokkelen)
 Subject: Re: Jumper settings for Ungermann-Bass PCNIC Ethernet card
+Message-ID: <930422151748@cream.ftp.com>
 Nntp-Software: PC/TCP NNTP
 Keywords: UB PCNIC
 Lines: 14        
+Sender: root@vaxeline.ftp.com (vaxeline.ftp.com root account)
 Nntp-Posting-Host: whipped-cream.ftp.com
 Reply-To: jbvb@ftp.com
 Organization: FTP Software, Inc., North Andover, Massachusetts
+References: <1993Apr21.215204.18373@ntg.com>
 Distribution: na
+Date: Thu, 22 Apr 1993 15:17:48
 
 In article <1993Apr21.215204.18373@ntg.com> dplatt@ntg.com (Dave Platt) writes:
     The IRQ and interface-select jumpers are pretty straightforward, but I

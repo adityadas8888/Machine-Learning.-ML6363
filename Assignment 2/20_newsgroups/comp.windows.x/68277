@@ -1,6 +1,11 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!rochester!galileo.cc.rochester.edu!ub!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!world!oj
 From: oj@world.std.com (Oliver Jones)
 Subject: Re: XQueryTree, XGrabServer, and robustness
+Message-ID: <C78I96.23A@world.std.com>
 Organization: Shawsheen Software
+References: <1993May18.150655.23645@viewlogic.com>
+Date: Tue, 18 May 1993 18:05:28 GMT
 Lines: 24
 
 In article <1993May18.150655.23645@viewlogic.com> josh@viewlogic.com (Josh Marantz) writes:

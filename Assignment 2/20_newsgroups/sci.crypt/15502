@@ -1,6 +1,11 @@
+Newsgroups: sci.crypt
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!sample.eng.ohio-state.edu!maumee!butzerd
 From: butzerd@maumee.eng.ohio-state.edu (Dane C. Butzer)
 Subject: How large are commercial keys?
+Message-ID: <1993Apr20.182038.12009@ee.eng.ohio-state.edu>
+Sender: news@ee.eng.ohio-state.edu
 Organization: The Ohio State University Dept of Electrical Engineering
+Date: Tue, 20 Apr 1993 18:20:38 GMT
 Lines: 13
 
 What are the typical sizes for keys for commercial secret key algorithms?

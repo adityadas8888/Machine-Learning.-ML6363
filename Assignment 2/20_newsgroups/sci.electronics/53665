@@ -1,10 +1,15 @@
+Newsgroups: sci.electronics
 From: tchannon@black.demon.co.uk (Tim Channon)
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!cs.utexas.edu!uunet!pipex!demon!black.demon.co.uk!tchannon
 Subject: Re: Can I use a CD4052 analog multiplexer for digital signal
 Reply-To: tchannon@black.demon.co.uk
 Distribution: world
 X-Mailer: cppnews $Revision: 1.20 $
 Organization: null
 Lines: 19
+Date: Sat, 17 Apr 1993 01:44:26 +0000
+Message-ID: <735036266snx@black.demon.co.uk>
+Sender: usenet@demon.co.uk
 
 > As the subject says - Can I use a 4052 for digital signals?  I don't see
 > why it couldn't handle digital signals, but I could be wrong.  Anyone have

@@ -1,12 +1,18 @@
+Xref: cantaloupe.srv.cs.cmu.edu sci.crypt:15838 comp.org.eff.talk:17151 misc.legal.computing:3076
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!transfer.stratus.com!ellisun.sw.stratus.com!cme
 From: cme@ellisun.sw.stratus.com (Carl Ellison)
+Newsgroups: sci.crypt,comp.org.eff.talk,misc.legal.computing
 Subject: Strong Encryption
+Date: 23 Apr 1993 15:05:33 GMT
 Organization: Stratus Computer, Software Engineering
 Lines: 33
 Distribution: world
+Message-ID: <1r90jt$5v9@transfer.stratus.com>
 NNTP-Posting-Host: ellisun.sw.stratus.com
 
 I just posted this reply to comp.risks (answering RISKS DIGEST 14.53).
 Summary: Re: [14.53 Mark Seecof] "key escrow"
+References: <CMM.0.90.1.735527964.risks@chiron.csl.sri.com>
 
 >From: Mark Seecof <marks@wimsey.latimes.com>
 >Subject: "key escrow" (Clipper Chip; RISKS 14.51)

@@ -1,8 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x:68078 comp.windows.open-look:8571
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!wupost!darwin.sura.net!news-feed-1.peachnet.edu!concert!epa-rtp!hermes.ath.epa.gov!helios.ath.epa.gov!kbw
 From: kbw@helios.ath.epa.gov (Kevin B. Weinrich)
+Newsgroups: comp.windows.x,comp.windows.open-look
 Subject: How to make a window's input be ALL CAPS without Caps Lock?
+Date: 13 May 1993 20:06:41 GMT
 Organization: Computer Sciences Corp.
 Lines: 15
 Distribution: world
+Message-ID: <1su9oh$97@hermes.ath.epa.gov>
 NNTP-Posting-Host: helios.ath.epa.gov
 
 An application we *must* use requires upper-case input.  I'd like to be

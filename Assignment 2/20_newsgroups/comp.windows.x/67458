@@ -1,5 +1,11 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.unix.aix:24583 comp.windows.x:67458
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!pitt.edu!uunet!netwrx1!deford
 From: deford@netwrx1.NW1.COM (Brian DeFord)
+Newsgroups: comp.unix.aix,comp.windows.x
 Subject: preventing user from hitting CTRL-ALT-BKSP to exit X
+Message-ID: <1376@netwrx1.NW1.COM>
+Date: 29 Apr 93 17:37:34 GMT
+Followup-To: comp.unix.aix
 Organization: Open Networks, Inc., Reston, VA
 Lines: 49
 

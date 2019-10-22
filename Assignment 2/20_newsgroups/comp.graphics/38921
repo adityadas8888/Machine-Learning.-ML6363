@@ -1,6 +1,12 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!cs.utexas.edu!geraldo.cc.utexas.edu!portal.austin.ibm.com!awdprime.austin.ibm.com!mark
 From: einkauf@austin.ibm.com (Mark Einkauf)
 Subject: Re: Need help: Z-buffering lines & areas together
 Originator: mark@einkauf.austin.ibm.com
+Message-ID: <C67Az1.1qxA@austin.ibm.com>
+Sender: mark@austin.ibm.com (Mark Einkauf)
+Date: Wed, 28 Apr 1993 15:57:00 GMT
+References:  <gorgen.735950271@aa.cad.slb.com>
 Organization: IBM Austin
 Keywords: Z-buffer, roundoff, lines, areas
 Lines: 105

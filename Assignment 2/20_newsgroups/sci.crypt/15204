@@ -1,8 +1,13 @@
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!linac!uwm.edu!cs.utexas.edu!sdd.hp.com!saimiri.primate.wisc.edu!eng.ufl.edu!usenet.ufl.edu!gatech!howland.reston.ans.net!agate!apple!kaleida.com!jfenton.kaleida.com!Fenton
 From: Jay Fenton <Fenton@Kaleida.Com>
+Newsgroups: sci.crypt
 Subject: How to detect use of an illegal cipher?
+Date: 16 Apr 1993 21:06:31 GMT
 Organization: Kaleida Labs, Inc.
 Lines: 10
 Distribution: world
+Message-ID: <1qn74nINNi38@golden.kaleida.com>
+References: <C5L17v.GH5@dove.nist.gov> <bontchev.734981805@fbihh> <1qmugcINNpu9@gap.caltech.edu>
 NNTP-Posting-Host: jfenton.kaleida.com
 X-UserAgent: Nuntius v1.1.1d12
 X-XXMessage-ID: <A7F46F47EA010B1C@jfenton.kaleida.com>

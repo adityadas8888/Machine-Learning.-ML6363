@@ -1,6 +1,11 @@
+Newsgroups: comp.os.ms-windows.misc
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!darwin.sura.net!sgiblab!tsoft!tedm
 From: tedm@tsoft.net (Ted Matsumura)
 Subject: Re: leaking memory resources in 3.1
+Message-ID: <C6Btyr.A0y@tsoft.net>
 Organization: TSoft BBS and Public Access Unix, +1 415 969 8238
+References: <29APR199309371113@bpavms.bpa.arizona.edu> <C6Aw83.H7v@csn.org> <1993Apr30.180317.5618@seas.gwu.edu>
+Date: Sat, 1 May 1993 02:37:38 GMT
 Lines: 34
 
 In article <1993Apr30.180317.5618@seas.gwu.edu> louray@seas.gwu.edu (Michael Panayiotakis) writes:

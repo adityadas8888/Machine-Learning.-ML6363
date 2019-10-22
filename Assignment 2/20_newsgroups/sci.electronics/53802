@@ -1,8 +1,13 @@
+Newsgroups: sci.electronics
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!newsserver.jvnc.net!newsserver.technet.sg!ntuix!ntuvax.ntu.ac.sg!ba1634807
 From: ba1634807@ntuvax.ntu.ac.sg
 Subject: pwm control thru software
+Message-ID: <1993Apr20.175433.1@ntuvax.ntu.ac.sg>
 Lines: 17
+Sender: news@ntuix.ntu.ac.sg (USENET News System)
 Nntp-Posting-Host: v9001.ntu.ac.sg
 Organization: Nanyang Technological University - Singapore
+Date: Tue, 20 Apr 1993 09:54:33 GMT
 
 
 currently I am using the 8051 microcontroller with external eprom..

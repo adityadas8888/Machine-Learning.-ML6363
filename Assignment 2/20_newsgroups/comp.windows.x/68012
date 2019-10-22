@@ -1,5 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x.apps:2691 comp.sys.ibm.pc.misc:35141 comp.windows.x:68012
+Newsgroups: comp.windows.x.apps,comp.sys.ibm.pc.misc,comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!darwin.sura.net!haven.umd.edu!purdue!yuma!hercules.lance.colostate.edu!pm860605
 From: pm860605@longs.LANCE.ColoState.Edu (Peter J. McKinney)
 Subject: Re: Looking for X windows on a PC (long list of known servers)
+Sender: news@yuma.ACNS.ColoState.EDU (News Account)
+Message-ID: <pm860605.201.737227931@longs.LANCE.ColoState.Edu>
+Date: Wed, 12 May 1993 17:32:12 GMT
+References: <C6wLIJ.L5K@bailgate.gpsemi.com> <1993May12.150804.2878@taylor.uucp>
 Nntp-Posting-Host: hercules.lance.colostate.edu
 Organization: Colorado State University
 Keywords: IBM PC, X windows, windows
@@ -27,6 +34,7 @@ using your system as an X server.  Enjoy!
 From: mccoy@gothamcity.jsc.nasa.gov (Daniel J. McCoy)
 Newsgroups: comp.windows.x,news.answers
 Subject: X Servers for DOS, Microsoft Windows, OS/2, Macs, Amigas, Atari
+Followup-To: comp.windows.x
 Reply-To: mccoy@gothamcity.jsc.nasa.gov (Daniel J. McCoy)
 Organization: I-NET Inc.
 Summary: This is a guide or list of X servers that can be used on nonUNIX [sic] networked machines to display X clients running on UNIX machines.

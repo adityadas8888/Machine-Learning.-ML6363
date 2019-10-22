@@ -1,7 +1,12 @@
+Newsgroups: comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!rochester!cornell!batcomputer!munnari.oz.au!metro!ob1!dgodden
 From: dgodden@st.nepean.uws.edu.au (Daniel Godden)
 Subject: Fast Polygon Routines needed.
+Message-ID: <1993Apr27.021913.24206@uws.EDU.AU>
+Sender: news@uws.EDU.AU
 Organization: University of Western Sydney, Nepean
 X-Newsreader: Tin 1.1 PL4
+Date: Tue, 27 Apr 1993 02:19:13 GMT
 Lines: 16
 
 I am looking for some fast polygon routines (Shaded or Texture

@@ -1,6 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:52002 comp.sys.mac.wanted:21984
+Newsgroups: comp.sys.mac.hardware,comp.sys.mac.wanted
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!ux1.cso.uiuc.edu!news.iastate.edu!help.cc.iastate.edu!emstadth
 From: emstadth@iastate.edu (Eric M Stadtherr)
 Subject: Re: Cache card for IIsi
+Message-ID: <emstadth.735365412@help.cc.iastate.edu>
+Sender: news@news.iastate.edu (USENET News System)
 Organization: Iowa State University, Ames IA
+References: <C5qnow.IH2@imag.fr> <pebi.735242681@zephyr.aem.umn.edu> <1qv2u3$gt0@grouper.mkt.csd.harris.com> <C5sApG.1D3@hawnews.watson.ibm.com> <1r1acrINNsp3@mohawk.cs.utexas.edu>
+Date: Wed, 21 Apr 1993 04:10:12 GMT
 Lines: 43
 
 I ran speedometer 3.21's tests (all of them) on my IIsi first with the 64k

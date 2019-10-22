@@ -1,6 +1,13 @@
+Newsgroups: sci.electronics
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!sdd.hp.com!decwrl!apple!mumbo.apple.com!gallant.apple.com!NewsWatcher!user
 From: alan@apple.com (Alan Mimms)
 Subject: Re: UART needed (really BREAK detect)
+Sender: news@gallant.apple.com
+Message-ID: <alan-230493165217@17.129.12.26>
+Date: Fri, 23 Apr 1993 23:52:33 GMT
+References: <jam.19.735404158@ameslab.gov> <alan-210493163447@17.129.12.26> <3402@tau-ceti.isc-br.com>
 Organization: Apple Computer, Inc.
+Followup-To: sci.electronics
 Lines: 43
 
 In article <3402@tau-ceti.isc-br.com>, jimc@tau-ceti.isc-br.com (Jim

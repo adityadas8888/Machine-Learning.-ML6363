@@ -1,6 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu sci.crypt:15284 comp.security.misc:3400 alt.security:9966 comp.org.eff.talk:16904 alt.privacy:6585
+Newsgroups: sci.crypt,comp.security.misc,alt.security,comp.org.eff.talk,alt.privacy,alt.privacy.clipper
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!swrinde!zaphod.mps.ohio-state.edu!uwm.edu!linac!att!att!ulysses!ulysses!smb
 From: smb@research.att.com (Steven Bellovin)
 Subject: Clipper -- some new thoughts
+Message-ID: <1993Apr17.175656.23656@ulysses.att.com>
+Date: Sat, 17 Apr 1993 17:56:56 GMT
 Organization: AT&T Bell Laboratories
+Followup-To: sci.crypt
 Lines: 55
 
 I'd *desparately* prefer it if we didn't rehash the same arguments

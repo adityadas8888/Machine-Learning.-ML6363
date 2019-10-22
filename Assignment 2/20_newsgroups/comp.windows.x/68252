@@ -1,6 +1,13 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x:68252 comp.unix.programmer:11008 comp.graphics:39691
+Newsgroups: comp.windows.x,comp.unix.programmer,comp.graphics
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!darwin.sura.net!uvaarpa!cv3.cv.nrao.edu!fomalhaut!emeinfel
 From: emeinfel@fomalhaut.gb.nrao.edu (Edmond L. Meinfelder)
 Subject: Re: Fitting straight line (or curve) to data points
+Message-ID: <1993May18.125940.8900@nrao.edu>
+Sender: emeinfel@fomalhaut (Edmond L. Meinfelder)
 Organization: National Radio Astronomy Observatory
+References:  <1993May17.201430.6391@knight.vf.ge.com>
+Date: Tue, 18 May 1993 12:59:40 GMT
 Lines: 17
 
 In article  warda@land.vf.ge.com (Andrew Ward) writes:

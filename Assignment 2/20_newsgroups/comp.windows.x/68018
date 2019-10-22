@@ -1,6 +1,11 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!malgudi.oar.net!chemabs!skf26
 From: scott.frost@cas.org (Scott Frost)
 Subject: How to draw in Invert mode with Color
+Message-ID: <1993May12.200515.11676@cas.org>
+Sender: skf26@cas.org ()
 Organization: Chemical Abstracts Service
+Date: Wed, 12 May 1993 20:05:15 GMT
 Lines: 21
 
   How can I draw an object of a specified color over objects of varying colors

@@ -1,7 +1,12 @@
+Newsgroups: sci.electronics
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!linac!newsaintmail
 From: levy@levy.fnal.gov (Mark E. Levy, ext. 8056)
 Subject: Sources for Intel D87C51FB?
+Message-ID: <1993Apr19.154941.1@levy.fnal.gov>
+Sender: daemon@linac.fnal.gov (The Background Man)
 Nntp-Posting-Host: levy.fnal.gov
 Organization: Fermilab Computing Division
+Date: Mon, 19 Apr 1993 21:49:41 GMT
 Lines: 18
 
 I am in the midst of designing a project which requires two motors and an LED

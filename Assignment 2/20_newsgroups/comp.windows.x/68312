@@ -1,8 +1,13 @@
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!darwin.sura.net!dtix.dt.navy.mil!cs.umd.edu!kong.gsfc.nasa.gov!dealy
 From: dealy@narya.gsfc.nasa.gov (Brian Dealy - CSC)
+Newsgroups: comp.windows.x
 Subject: Re: How XCreateRegion works ??
+Date: 19 May 1993 12:32:58 GMT
 Organization: NASA/Goddard Space Flight Center
 Lines: 87
 Distribution: world
+Message-ID: <1993May19.082035@narya.gsfc.nasa.gov>
+References: <1td5inINNl7m@finch.doc.ic.ac.uk>
 NNTP-Posting-Host: narya.gsfc.nasa.gov
 Keywords: Xlib, XRegion
 Originator: dealy@narya.gsfc.nasa.gov

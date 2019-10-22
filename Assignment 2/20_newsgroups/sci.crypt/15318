@@ -1,7 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.org.acm:1617 sci.crypt:15318 comp.security.misc:3406 comp.org.ieee:1549
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!swrinde!network.ucsd.edu!pacbell.com!amdahl!key!news!zeev
 From: zeev@ccc.amdahl.com (Ze'ev Wurman)
+Newsgroups: comp.org.acm,sci.crypt,comp.security.misc,comp.org.ieee
 Subject: Is there ANY security in the Clipper?
+Date: 18 Apr 93 01:48:22
 Organization: Amdahl Corp., Sunnyvale CA
 Lines: 26
+Message-ID: <ZEEV.93Apr18014822@sepia.ccc.amdahl.com>
 NNTP-Posting-Host: sepia.key.amdahl.com
 
 It seems to me that all discussions about Clipper security are almost 

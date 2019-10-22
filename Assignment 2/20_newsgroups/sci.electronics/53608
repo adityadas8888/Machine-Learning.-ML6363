@@ -1,7 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu rec.radio.amateur.packet:5893 sci.electronics:53608
+Newsgroups: rec.radio.amateur.packet,sci.electronics
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!hubcap!ncrcae!ncrhub2!law7!jra
 From: jra@law7.DaytonOH.NCR.COM (John Ackermann x 2966)
 Subject: Single chip receiver for FSK?
+Message-ID: <C5L0xM.E25@law7.DaytonOH.NCR.COM>
 Reply-To: jra@law7.DaytonOH.NCR.COM (John Ackermann x 2966)
 Organization: NCR Corporation -- Law Department
+Date: Fri, 16 Apr 1993 15:12:57 GMT
 Lines: 21
 
 My next project is to come up with an IF/detector module for fast -- 112

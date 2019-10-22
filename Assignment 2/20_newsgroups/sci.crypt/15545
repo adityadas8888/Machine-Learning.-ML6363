@@ -1,7 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!cs.utexas.edu!not-for-mail
 From: boucher@csl.sri.com (Peter K. Boucher)
+Newsgroups: sci.crypt
 Subject: Pseudo-Random Character Generators (large state)
+Date: 20 Apr 1993 19:34:34 -0500
 Organization: UTexas Mail-to-News Gateway
 Lines: 171
+Sender: daemon@cs.utexas.edu
+Message-ID: <9304210034.AA19100@lorax.csl.sri.com>
 NNTP-Posting-Host: cs.utexas.edu
 
 Here are four pseudo-random character generators, based on

@@ -1,6 +1,10 @@
+Newsgroups: comp.windows.x
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!usc!cs.utexas.edu!uunet!munnari.oz.au!ariel.ucs.unimelb.EDU.AU!werple.apana.org.au!hal9000!jacks!jvs
 From: jvs@jacks.apana.org.au (Jack Strangio)
 Subject: SVR4 xclients won't work under SVR4.2 (repost)
+Message-ID: <1993May16.153604.990@jacks.apana.org.au>
 Organization: Prospect 5082, AUSTRALIA
+Date: Sun, 16 May 93 15:36:04 GMT
 Lines: 17
 
 When I changed from SVR4 to SVR4.2 on my Intel box I discovered that

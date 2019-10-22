@@ -1,6 +1,11 @@
+Newsgroups: comp.os.ms-windows.misc
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!olivea!pagesat!indirect.com!indirect.com!wynapse
 From: wynapse@indirect.com (Dave Campbell - WynApse)
 Subject: Re: leaking memory resources in 3.1
+Message-ID: <wynapse.736230307@indirect.com>
 Organization: Internet Direct Inc. -- (602) 274-0100
+References: <29APR199309371113@bpavms.bpa.arizona.edu>
+Date: Sat, 1 May 1993 04:25:07 GMT
 Lines: 35
 
 dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:

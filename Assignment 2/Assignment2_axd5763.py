@@ -5,7 +5,7 @@ import math
 import re
 import timeit
 
-sub_folders = []
+sub_folders=[]
 file_name = []
 path=[]
 stop_words = []      
@@ -13,7 +13,7 @@ global group
 group='NULL'
 cwd = os.getcwd()
 path = cwd+"/20_newsgroups/"
-total_dic = {}                                  ## total list of words
+total_dic = {}                                  
 dictionary = {}
 file_name ={}
 
@@ -32,10 +32,9 @@ def stop_words_calc():
     return data;
 
 
-def text_preprocessing(text):
-    text = text.replace('\n', ' ')
+def text_preprocessing(text):                                                                   ### cleaned up
     symbol_remove = ['<','>','?','.','"',')','(','|','-','#','*','+','\'','&','^','`','~','\t','$','%',"'",'!','/','\\','=',',',':']
-    # symbol_replace = ["'",'!','/','\\','=',',',':']
+    text = text.replace('\n', ' ')
     text = text.lower()
     email = re.findall(r'[\w\.-]+@[\w\.-]+', text)              ## regex email addresses and removing them
     for word in email:
@@ -46,8 +45,8 @@ def text_preprocessing(text):
         text = text.replace(word,'')
     return text
 
-def load_test_files():
-    global group                                         ## change this 
+def load_test_files(sub_folders):               ## change this to do just last 50%
+    global group                                 
     while (len(sub_folders)):
         r_fo = random.randint(0,len(sub_folders)-1)
         sub_foldern = sub_folders[r_fo]
@@ -58,8 +57,7 @@ def load_test_files():
             fil = file_name[sub_foldern][r_fi]
             file_name[sub_foldern].remove(fil)
             group = sub_foldern
-            with open(path + sub_foldern + '/'+ fil, encoding="latin-1") as datafile:
-                data = datafile.read();
+            data = open_file(path + sub_foldern + '/'+ fil);
             return data
     group = 'NULL'
     return 'NULL'
@@ -73,8 +71,14 @@ def get_probability(fields, dic):                                   ## understan
     return probability
 
 
+def open_file(file_location):
+    with open(file_location, encoding="latin-1") as datafile:
+        data = datafile.read();
+    return data
+
+
 def train_model(sub_folderlist):
-    print ("Training the model")
+    print ("...............................Training the model...............................\n")
     for fo in sub_folderlist:
         # print('.')
         dic = {}
@@ -86,10 +90,8 @@ def train_model(sub_folderlist):
             flag+= 1
             if flag > training_set:
                 break
-            add = sub_folder + '/'+fi
-            with open(add, encoding="latin-1") as datafile:
-                    something = datafile.read();
-            data = text_preprocessing(something)
+            opened_file=open_file(sub_folder + '/'+fi);
+            data = text_preprocessing(opened_file);
             fields = data.split(' ');
             if '' in fields: fields.remove('');
             if ' ' in fields: fields.remove(' ');
@@ -103,45 +105,41 @@ def train_model(sub_folderlist):
             files.remove(fi)
         file_name[fo] = files
         dictionary[fo] = dic
-    print (len(total_dic), 'unique words were discovered during training.');
+    print (len(total_dic), 'unique words were discovered during training.\n');
 
-#--------------------------Main --------------------------------------------
-start = timeit.default_timer()
-sub_folderlist = os.listdir(path)                  ## list of all sub directories
-i = 0 
+def test_model(sub_folderlist):
+    print ("\n...............................Testing the model...............................")
+    data = 1
+    sub_folders = copy.deepcopy(sub_folderlist)
+    iteration = 0
+    success = 0
+    while (data):
+        data = load_test_files(sub_folders)                            ## loadin the test files
+        iteration = iteration + 1
+        if data =='NULL':
+            break
+        data = text_preprocessing(data)
+        fields = data.split(' ')
+        if '' in fields: fields.remove('')
+        if ' ' in fields: fields.remove(' ')
+        probabilities = []
+        for c in sub_folderlist:
+            probabilities.append(get_probability(fields,dictionary[c]))
+        if group == sub_folderlist[probabilities.index(max(probabilities))]:
+            success = success + 1   
+    return success,iteration
 
-group = 'NULL'
-stop_words = stop_words_calc()
-train_model(sub_folderlist);
-
-print ("Testing the models")
-data = 1
-sub_folders = copy.deepcopy(sub_folderlist)
-iteration = 0
-success = 0
-while (data):
-    data = load_test_files()                            ## loadin the test files
-    iteration = iteration + 1
-    if data =='NULL':
-        break
-    data = text_preprocessing(data)
-    fields = data.split(' ')
-    if '' in fields: fields.remove('')
-    if ' ' in fields: fields.remove(' ')
-    probabilities = []
-    for c in sub_folderlist:
-        probabilities.append(get_probability(fields,dictionary[c]))
-    if group == sub_folderlist[probabilities.index(max(probabilities))]:
-        success = success + 1   
-print ('Success rate = %.1f'% (float(success)/float(iteration - 1)*100))
-stop = timeit.default_timer()
-
-print('Time: ', stop - start) 
-
-# def main():
-#     print("\nLoading the dataset\n");
-#     get_dataset();
-# if __name__== "__main__":
-#   main()
+def main():
+    start = timeit.default_timer()
+    sub_folderlist = os.listdir(path)                  ## list of all sub directories
+    stop_words = stop_words_calc()
+    group='NULL'
+    train_model(sub_folderlist);
+    success,iteration= test_model(sub_folderlist);
+    print ('Success rate = %.1f'% (float(success)/float(iteration - 1)*100))
+    stop = timeit.default_timer()
+    print('Time: ', stop - start) 
+if __name__== "__main__":
+  main()
 
 

@@ -1,7 +1,12 @@
+Newsgroups: sci.electronics
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!darwin.sura.net!bogus.sura.net!news-feed-1.peachnet.edu!umn.edu!lynx.unm.edu!mimbres.cs.unm.edu!nmt.edu!backbone	%s@ncar.ucar.edu!erickson
 From: erickson@azure.nmt.edu (Alan Erickson)
 Subject: PC parallel I (!= I/O)
+Message-ID: <1993Apr26.110250.5243@nmt.edu>
+Sender: erickson@azure (Alan Erickson)
 Nntp-Posting-Host: azure
 Organization: New Mexico Tech
+Date: Mon, 26 Apr 1993 11:02:50 GMT
 Lines: 14
 
 	I'm trying to bring in 8+ bits to a PC, and would like

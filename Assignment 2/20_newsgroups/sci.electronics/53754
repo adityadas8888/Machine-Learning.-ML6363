@@ -1,8 +1,14 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.amiga.hardware:41658 comp.sys.m68k:4658 sci.electronics:53754
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!menudo.uh.edu!rosie.uh.edu!st1my
 From: st1my@rosie.uh.edu (Stich, Christian E.)
+Newsgroups: comp.sys.amiga.hardware,comp.sys.m68k,sci.electronics
 Subject: Re: Motorola XC68882RC33 and RC50
+Date: 19 Apr 1993 10:08 CDT
 Organization: University of Houston
 Lines: 26
 Distribution: world
+Message-ID: <19APR199310081449@rosie.uh.edu>
+References: <16APR199323531467@rosie.uh.edu>
 NNTP-Posting-Host: rosie.uh.edu
 Keywords: Motorola, FPU, 68882, 68030, 33/50 MHz, problems (FPU exception)
 News-Software: VAX/VMS VNEWS 1.41    

@@ -1,6 +1,12 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.x:68005 comp.windows.x.intrinsics:1221 comp.windows.x.motif:17270
+Newsgroups: comp.windows.x,comp.windows.x.intrinsics,comp.windows.x.motif
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!nntp-server.caltech.edu!godzilla.quotron.com!duke!greg
 From: greg@duke.quotron.com (greg)
 Subject: Piping "tail -f" to a widget: How, oh Lord, how?
+Message-ID: <C6x7CI.Mss@quotron.com>
+Sender: root@quotron.com (Operator)
 Organization: Quotron Systems, Inc.
+Date: Wed, 12 May 1993 15:36:18 GMT
 Lines: 12
 
 I've spent the past week tearing my hair out, trying to get the output of

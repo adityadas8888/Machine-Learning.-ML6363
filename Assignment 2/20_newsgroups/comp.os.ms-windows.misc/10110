@@ -1,9 +1,16 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:61990 comp.os.ms-windows.misc:10110
+Newsgroups: comp.sys.ibm.pc.hardware,comp.os.ms-windows.misc
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!news.smith.edu!root
 From: ebrewer@science.smith.edu
 Subject: re: Where to put my swap file (IDE or SCSI)
+Message-ID: <1993Apr30.145910.3369@sophia.smith.edu>
 Keywords: 
  
+Sender: root@sophia.smith.edu (Operator)
 Organization: Smith College
+References: <1993Apr28.160220.963@oracle.us.oracle.com>
 Distribution: na
+Date: Fri, 30 Apr 1993 14:59:10 GMT
 Lines: 23
 
 In article <1993Apr28.160220.963@oracle.us.oracle.com> ebosco@us.oracle.com writes:

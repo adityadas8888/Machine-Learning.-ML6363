@@ -1,8 +1,14 @@
+Xref: cantaloupe.srv.cs.cmu.edu comp.windows.open-look:8596 comp.windows.x:68212
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!gatech!concert!epa-rtp!hermes.ath.epa.gov!helios.ath.epa.gov!kbw
 From: kbw@helios.ath.epa.gov (Kevin B. Weinrich)
+Newsgroups: comp.windows.open-look,comp.windows.x
 Subject: SUMMARY: How to make a window's input be ALL CAPS
+Date: 17 May 1993 15:09:55 GMT
 Organization: Computer Sciences Corp.
 Lines: 30
 Distribution: world
+Message-ID: <1t89s3$hk9@hermes.ath.epa.gov>
+References: <1su9oh$97@hermes.ath.epa.gov>
 NNTP-Posting-Host: helios.ath.epa.gov
 
 Thanks to Bruce Barnett, who recommended xvttool, and Bernward Averwald and

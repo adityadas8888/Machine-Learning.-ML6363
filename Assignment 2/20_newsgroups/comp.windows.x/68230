@@ -1,8 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!torn!nott!bnrgate!bnr.co.uk!pipex!doc.ic.ac.uk!cs.city.ac.uk!not-for-mail
 From: da188@cs.city.ac.uk (A. Khattri)
+Newsgroups: comp.windows.x
 Subject: Re: Blinking Cursor in Xterm???
+Date: 17 May 1993 23:39:24 +0100
 Organization: Computer Science Dept, City University, London
 Lines: 19
 Distribution: world
+Message-ID: <1t946sINNj1h@fred.cs.city.ac.uk>
 NNTP-Posting-Host: fred.cs.city.ac.uk
 
 >> Back in the days of X11.1 I did analyse the xterm code. The cursor 

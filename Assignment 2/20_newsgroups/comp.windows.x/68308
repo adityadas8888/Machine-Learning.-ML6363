@@ -1,8 +1,12 @@
+Path: cantaloupe.srv.cs.cmu.edu!rochester!cornell!batcomputer!caen!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!doc.ic.ac.uk!ln
 From: ln@doc.ic.ac.uk (Leonidas Nikidis)
+Newsgroups: comp.windows.x
 Subject: How XCreateRegion works ??
+Date: 19 May 1993 12:27:19 +0100
 Organization: Department of Computing, Imperial College, University of London, UK.
 Lines: 28
 Distribution: world
+Message-ID: <1td5inINNl7m@finch.doc.ic.ac.uk>
 NNTP-Posting-Host: finch.doc.ic.ac.uk
 Keywords: Xlib, XRegion
 
