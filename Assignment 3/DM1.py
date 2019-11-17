@@ -9,12 +9,12 @@ import numpy as np
 
 def read_replace():
     dir_path = os.path.dirname(os.path.realpath(__file__));                 
-    data = pd.read_csv(dir_path+"/IRIS.csv");                                                           # reads the dataset from the current working directory  
-    data.species.replace(['Iris-setosa', 'Iris-versicolor','Iris-virginica'], [1, 2, 3], inplace=True);  # replacing the nominal values
-    data = data.sample(frac=1).reset_index(drop=True)
-    return data                                                  # randomizing the dataset and resetting the index
+    data = pd.read_csv(dir_path+"/IRIS.csv");                                                           # reads the dataset csv from the current working directory  
+    data.species.replace(['Iris-setosa', 'Iris-versicolor','Iris-virginica'], [1, 2, 3], inplace=True); # replacing the nominal values
+    data = data.sample(frac=1).reset_index(drop=True)                                                   # randomizing the dataset and resetting the index
+    return data                                                  
 
-def set_random_centers(data):
+def set_random_centers(data):                                                                           # randomly selecting k number of centroids. The k depends on the 
     rndc = data.sample(n=len(data.species.unique()))
     centers = {
      i+1: [float(rndc.sepal_length.iloc[i]),float(rndc.sepal_width.iloc[i]),float(rndc.petal_length.iloc[i]),float(rndc.petal_width.iloc[i])]
@@ -27,9 +27,9 @@ def center_assignment(df, centers):
     for i in centers.keys():
         df['distance_from_{}'.format(i)] = (
             np.sqrt(
-                (df['sepal_length'] - centers[i][0]) ** 2                              ## the dimensions of the iris data has to be put here
+                (df['sepal_length'] - centers[i][0]) ** 2                              
                 + (df['sepal_width'] - centers[i][1]) ** 2
-                + (df['petal_length'] - centers[i][2]) ** 2                              ## the dimensions of the iris data has to be put here
+                + (df['petal_length'] - centers[i][2]) ** 2                              
                 + (df['petal_width'] - centers[i][3]) ** 2
             )
         )
@@ -40,14 +40,14 @@ def center_assignment(df, centers):
     return df
 
 def kmeans(data,center):
-    data = center_assignment(data,center)                                   ## Checked, this is working fine for the first iteration
+    data = center_assignment(data,center)                                   
     iterations=0
     norm = True
     while iterations<1000 and norm:
-        old_centers = copy.deepcopy(center)                                     ## deep copy of the old centers
+        old_centers = copy.deepcopy(center)                                     
         center = update_center(center,data)
         data = center_assignment(data,center)  
-        dw=dx=dy=dz=0.0                                   ## new initialized centers
+        dw=dx=dy=dz=0.0                                   
         flag =0
         for i in old_centers.keys():
             old_w = old_centers[i][0]
@@ -64,8 +64,7 @@ def kmeans(data,center):
         if flag ==3:
             norm =False
         iterations+=1
-    print('centers', center)
-    print('iterations    :', iterations)           
+    print('No of iterations    :', iterations)           
     return(data,center)
 
 def update_center(center,data):
@@ -76,14 +75,11 @@ def update_center(center,data):
         center[i][3] = data.loc[(data['predicted_cluster'] == i),'petal_width'].mean()
     return center
 
-def main():
-  
-  data = read_replace();  # reading function
-  center = set_random_centers(data)                                 ## this is working fine
-  data,center = kmeans(data,center)
+def plot_clusters(data,center):
+
   fig = plt.figure(figsize=(10, 10))
   ax = fig.add_subplot(111, projection='3d')
-
+  print('centers of the clusers',center)
   x = data['sepal_length'],
   y = data['sepal_width'],
   z = data['petal_length'],
@@ -97,5 +93,12 @@ def main():
     ax.scatter(x,y,z, color='black')
   plt.show()
 
+def main():
+  
+  data = read_replace();  
+  center = set_random_centers(data)                                 
+  data,center = kmeans(data,center)
+  plot_clusters(data,center)
+  
 if __name__== "__main__":
   main()
