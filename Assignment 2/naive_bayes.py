@@ -14,6 +14,7 @@ global domain
 domain='NULL'
 path = os.getcwd()+"/20_newsgroups/"
 
+# list and space the stop words from the text file
 def stop_words_calc():
     pathcheck('stopwords.txt','Stop Words file');
     f=open("stopwords.txt", "r");
@@ -27,23 +28,23 @@ def stop_words_calc():
     text.pop();
     return text;
 
+# load the test files sequentially
 def load_test_files(sub_folders):               
     global domain                                 
     while (len(sub_folders)):
-        random_group = random.randint(0,len(sub_folders)-1)
-        random_newsgroup = sub_folders[random_group]
-        if len(file_name[random_newsgroup])== 0:
-            sub_folders.remove(random_newsgroup)
+        newsgroup = sub_folders[len(sub_folders)-1]
+        if len(file_name[newsgroup])== 0:
+            sub_folders.pop();
         else:
-            random_file_num = random.randint(0, len(file_name[random_newsgroup])-1)
-            random_file = file_name[random_newsgroup][random_file_num]
-            file_name[random_newsgroup].remove(random_file)
-            domain = random_newsgroup
-            text = open_file(path + random_newsgroup + '/'+ random_file);
+            next_file = file_name[newsgroup][len(file_name[newsgroup])-1]
+            file_name[newsgroup].pop()
+            domain = newsgroup
+            text = open_file(path + newsgroup + '/'+ next_file);
             return text
     domain = 'NULL'
     return domain
 
+# clean the data
 def preprocessing(text,stop_words):                                                                
     symbol_remove = ['<','>','?','.','"',')','(','|','-','#','*','+','\'','&','^','`','~','\t','$','%',"'",'!','/','\\','=',',',':']
     text = text.lower()
@@ -51,21 +52,22 @@ def preprocessing(text,stop_words):
     text = text.replace('\n', ' ')
     for word in email:
         text = text.replace(word,' ')
-    for word in stop_words:                         #   Comment this line and the line below to 
-        text = text.replace(word,' ');              #   not remove stop words from the dataset
+    for word in stop_words:                                                                    #   Comment this line and the line below to 
+        text = text.replace(word,' ');                                                         #   not remove stop words from the dataset
     for word in symbol_remove:
         text = text.replace(word,'')
     text = text.split(' ');
     if '' in text: text.remove('');
     if ' ' in text: text.remove(' ');
     return text
-    
+
+#calculate the posterior probability    
 def calculate(_file_, dictionary,sub_folder_list):                                   
     probability = 0.0
     predictor_prob = sum(dictionary.values())
     prior_probability=1/len(sub_folder_list)
     for word in _file_:
-        likelihood = dictionary.get(word, 0.0000000001)                                  ### change the precision here to increase or decrease accuracy by 2%( range 0.1 to 0.000001)
+        likelihood = dictionary.get(word, 0.001)                                            ### change the laplacian smoothening precision here to increase or decrease accuracy by 2%( range 0.1 to 0.000001)
         probability+= math.log((float(likelihood)*prior_probability)/float(predictor_prob))
     return probability
 
@@ -75,7 +77,7 @@ def open_file(file_location):
         text = datafile.read();
     return text
 
-
+# train the model
 def train_model(sub_folder_list,stop_words):               
     print ("...............................Training the model...............................\n")
     i=1;
@@ -86,7 +88,7 @@ def train_model(sub_folder_list,stop_words):
         local_dictionary = {};
         sub_folder_path = path + sub_folder;
         files = os.listdir(sub_folder_path);
-        training_set =int(len(files)/2)+1;      # half the dataset constituents the training files.
+        training_set =int(len(files)/2)+1;                                                  # half the dataset constituents the training files.
         flag = 0;
         for _file_ in files:
             flag+= 1;
@@ -97,13 +99,14 @@ def train_model(sub_folder_list,stop_words):
             for field in words:
                 value = local_dictionary.get(field, 0);
                 value_t = global_dictionary.get(field, 0);
-                local_dictionary[field]=value+1;                                            # laplacian smoothening
+                local_dictionary[field]=value+1;                                            
                 global_dictionary[field]=value_t+1;
             record.append(_file_);
-        files=list(set(files).difference(record));                  ## comment this line to test the entire dataset.
+        files=list(set(files).difference(record));                                          ## comment this line to test the entire dataset.
         dictionary[sub_folder] = local_dictionary;
         file_name[sub_folder] = files;
 
+# test the model
 def test_model(sub_folder_list,stop_words):
     print ("\n................................Testing the model................................\n")
     loop = 0
@@ -113,7 +116,7 @@ def test_model(sub_folder_list,stop_words):
     while (text):
         if(loop>0 and loop%493==0):
             print(int(loop/9966*100),'% tested');
-        text = load_test_files(sub_folders);                            ## loadin the test files
+        text = load_test_files(sub_folders);                                                   # loading the test files
         if text =='NULL':
             break;
         loop+= 1;
@@ -126,6 +129,7 @@ def test_model(sub_folder_list,stop_words):
             prediction +=1;   
     return prediction,loop-1
 
+#check if the supporting files are present
 def pathcheck(path,supporting_file_name):
     if os.path.exists(path):
         print('\n',supporting_file_name,"detected in the current Directory\n");
