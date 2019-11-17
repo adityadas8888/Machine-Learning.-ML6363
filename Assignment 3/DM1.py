@@ -2,18 +2,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import copy
-
-
+import os
 def read_replace():
     dir_path = os.path.dirname(os.path.realpath(__file__));                 
-    data = pd.read_csv(dir_path+"/IRIS.csv");                                                           # reads the dataset from the current working directory  
+    data = pd.read_csv(dir_path+"/iris.data");                                                           # reads the dataset from the current working directory  
+    temp = data.columns
+    data.columns=['sepal_length','sepal_width','petal_length','petal_width','species']
+    data = data.append({'sepal_length':temp[0],'sepal_width':temp[1],'petal_length':temp[2],'petal_width':temp[3],'species':temp[4]} , ignore_index=True)
     data.species.replace(['Iris-setosa', 'Iris-versicolor','Iris-virginica'], [1, 2, 3], inplace=True);  # replacing the nominal values
-    data = data.sample(frac=1).reset_index(drop=True);                                                  # randomizing the dataset and resetting the index
-    
-    return data;
-
-
-
+    data = data.sample(frac=1).reset_index(drop=True)
+    return data                                                  # randomizing the dataset and resetting the index
 # def center_assignment(df, centers):
 #     for i in centers.keys():
 #         df['distance_from_{}'.format(i)] = (
@@ -95,3 +93,11 @@ def read_replace():
 # print(iter)
 # print(df)
 # plt.show()
+
+
+def main():
+  data = read_replace();
+  
+  plt.show();
+if __name__== "__main__":
+  main()
