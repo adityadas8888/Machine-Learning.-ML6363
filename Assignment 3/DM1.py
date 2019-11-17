@@ -1,8 +1,12 @@
 import numpy as np
-# import matplotlib.pyplot as plt
 import pandas as pd
 import copy
+import math
 import os
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+
 def read_replace():
     dir_path = os.path.dirname(os.path.realpath(__file__));                 
     data = pd.read_csv(dir_path+"/IRIS.csv");                                                           # reads the dataset from the current working directory  
@@ -19,6 +23,7 @@ def set_random_centers(data):
     return centers
 
 def center_assignment(df, centers):
+    colmap = {1: 'r', 2: 'g', 3: 'b',4:'y',5:'pink',6:'brown'}
     for i in centers.keys():
         df['distance_from_{}'.format(i)] = (
             np.sqrt(
@@ -29,141 +34,68 @@ def center_assignment(df, centers):
             )
         )
     centroid_distance_cols = ['distance_from_{}'.format(i) for i in centers.keys()]
-    df['predicted'] = df.loc[:, centroid_distance_cols].idxmin(axis=1)
-    df['predicted'] = df['predicted'].map(lambda x: int(x.lstrip('distance_from_')))
+    df['predicted_cluster'] = df.loc[:, centroid_distance_cols].idxmin(axis=1)
+    df['predicted_cluster'] = df['predicted_cluster'].map(lambda x: int(x.lstrip('distance_from_')))
+    df['color'] = df['predicted_cluster'].map(lambda x: colmap[x])
     return df
 
 def kmeans(data,center):
-    data = center_assignment(data,center)               ## this is working fine
-    dw=dx=dy=dz=1
+    data = center_assignment(data,center)                                   ## Checked, this is working fine for the first iteration
     iterations=0
-    while iterations<1000:# and (dw>=0.001 and dx>= 0.001 and dy>=0.001 and dz>= 0.001):
-        closest_centers = data['predicted'].copy(deep=True)                     ## guess this is working
+    norm = True
+    while iterations<1000 and norm:
         old_centers = copy.deepcopy(center)                                     ## deep copy of the old centers
-        center = update_center(center,data)                                     ## new initialized centers
+        center = update_center(center,data)
+        data = center_assignment(data,center)  
+        dw=dx=dy=dz=0.0                                   ## new initialized centers
+        flag =0
         for i in old_centers.keys():
             old_w = old_centers[i][0]
             old_x = old_centers[i][1]
             old_y = old_centers[i][2]
             old_z = old_centers[i][3]
-            dw = abs(center[i][0] - old_centers[i][0])
-            dx = abs(center[i][1] - old_centers[i][1])
-            dy = abs(center[i][2] - old_centers[i][2])
-            dz = abs(center[i][3] - old_centers[i][3])
-        data = center_assignment(data, center)
-        print(data)
+            dw = (center[i][0] -old_w)**2
+            dx = (center[i][1] - old_x)**2
+            dy = (center[i][2] - old_y)**2
+            dz = (center[i][3] - old_z)**2
+            temp = np.sqrt(dw+dx+dy+dz)
+            if(temp<0.001):
+                flag+=1
+        if flag ==3:
+            norm =False
         iterations+=1
-        if closest_centers.equals(data['predicted']):
-            return(data)
-    return(data)
+    print('centers', center)
+    print('iterations    :', iterations)           
+    return(data,center)
 
 def update_center(center,data):
     for i in center.keys():
-        center[i][0] = np.mean(data[data['predicted'] == i]['sepal_length'])
-        center[i][1] = np.mean(data[data['predicted'] == i]['sepal_width'])
-        center[i][2] = np.mean(data[data['predicted'] == i]['petal_length'])
-        center[i][3] = np.mean(data[data['predicted'] == i]['petal_width'])
+        center[i][0] = data.loc[(data['predicted_cluster'] == i),'sepal_length'].mean()
+        center[i][1] = data.loc[(data['predicted_cluster'] == i),'sepal_width'].mean()
+        center[i][2] = data.loc[(data['predicted_cluster'] == i),'petal_length'].mean()
+        center[i][3] = data.loc[(data['predicted_cluster'] == i),'petal_width'].mean()
     return center
 
-
 def main():
-  data = read_replace();
-  print(data.to_string())
+  
+  data = read_replace();  # reading function
   center = set_random_centers(data)                                 ## this is working fine
-  data = kmeans(data,center)
-  data['correct'] = np.where((data['species'] == data['predicted']) , 1, 0)
-  print(data.to_string())
-  print(data.correct.sum())
+  data,center = kmeans(data,center)
+  fig = plt.figure(figsize=(10, 10))
+  ax = fig.add_subplot(111, projection='3d')
+
+  x = data['sepal_length'],
+  y = data['sepal_width'],
+  z = data['petal_length'],
+  c = data['color']
+  img = ax.scatter(x, y, z, c=c, cmap=plt.hot())
+  for i in center.keys():
+    x = float(center[i][0])
+    y = float(center[i][1])
+    z = float(center[i][2])
+    c = int(center[i][3])
+    ax.scatter(x,y,z, color='black')
+  plt.show()
+
 if __name__== "__main__":
   main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# iter = 1 
-# mean1 = [1,0]
-# mean2 = [0,1.5]
-
-# Sigma1 = [[0.9,0.4],[0.4,0.9] ]
-# Sigma2 = [[0.9,0.4],[0.4,0.9] ]
-# #c=[[10,10],[-10,-10]]                                                          #centers for Part 2 of Question 1
-# c=[[10,10],[-10,-10],[10,-10],[-10,10]]                                         #centers for Part 3 of Question 1
-# #k=2                                                                            # cluster for Part 2 of Question 1
-# k=4                                                                             # cluster for Part 3 of Question 1
-# colmap = {1: 'r', 2: 'g', 3: 'b',4:'y',5:'pink',6:'brown'}
-
-# x, y = np.random.multivariate_normal(mean1, Sigma1, 500).T
-# p, q = np.random.multivariate_normal(mean2, Sigma2, 500).T
-
-# x=np.concatenate((x, p))
-# y=np.concatenate((y, q))
-
-# d = {
-#     'x': x,
-#     'y': y
-# }
-# df=pd.DataFrame(d)
-
-# centers = {
-#      i+1: [c[i][0],c[i][1]]
-#      for i in range(len(c))                                                 # the number of labels of the flowers has to be changed here.
-#  }
-
-# df = center_assignment(df, centers)
-# dx=1
-# dy=1
-
-# while iter<=10000 or (dx>=0.001 and dy>= 0.001):
-   
-#     closest_centers = df['closest'].copy(deep=True)
-#     old_centers = copy.deepcopy(centers)
-   
-#     for i in old_centers.keys():
-#         old_x = old_centers[i][0]
-#         old_y = old_centers[i][1]
-#         dx = (centers[i][0] - old_centers[i][0])
-#         dy = (centers[i][1] - old_centers[i][1])
-
-#     centers = update_center(centers)
-#     df = center_assignment(df, centers)
-#     iter=iter+1
-#     if closest_centers.equals(df['closest']):
-#         break
-
-# fig = plt.figure(figsize=(10, 10))
-# plt.scatter(df['x'], df['y'], color=df['color'], alpha=0.5, edgecolor='k',marker="x")
-# for i in centers.keys():
-#     plt.scatter(*centers[i], color='black')
-# plt.xlim(-3, 5)
-# plt.ylim(-3, 5)
-# print(centers)
-# print(iter)
-# print(df)
-# plt.show()
