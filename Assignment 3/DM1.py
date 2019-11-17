@@ -18,11 +18,11 @@ def set_random_centers(data):                                                   
     rndc = data.sample(n=len(data.species.unique()))
     centers = {
      i+1: [float(rndc.sepal_length.iloc[i]),float(rndc.sepal_width.iloc[i]),float(rndc.petal_length.iloc[i]),float(rndc.petal_width.iloc[i])]
-     for i in range(len(data.species.unique()))                                                 # the number of labels of the flowers has to be changed here.
+     for i in range(len(data.species.unique()))                                                         # the number of labels of the flowers has to be changed here.
  }
     return centers
 
-def center_assignment(df, centers):
+def center_assignment(df, centers):                                                                     # assigning the centers of the centroids
     colmap = {1: 'r', 2: 'g', 3: 'b',4:'y',5:'pink',6:'brown'}
     for i in centers.keys():
         df['distance_from_{}'.format(i)] = (
@@ -39,7 +39,7 @@ def center_assignment(df, centers):
     df['color'] = df['predicted_cluster'].map(lambda x: colmap[x])
     return df
 
-def kmeans(data,center):
+def kmeans(data,center):                                                                                # kmeans actual function
     data = center_assignment(data,center)                                   
     iterations=0
     norm = True
@@ -67,7 +67,7 @@ def kmeans(data,center):
     print('No of iterations    :', iterations)           
     return(data,center)
 
-def update_center(center,data):
+def update_center(center,data):                                                                         #updating the centroids
     for i in center.keys():
         center[i][0] = data.loc[(data['predicted_cluster'] == i),'sepal_length'].mean()
         center[i][1] = data.loc[(data['predicted_cluster'] == i),'sepal_width'].mean()
@@ -75,8 +75,7 @@ def update_center(center,data):
         center[i][3] = data.loc[(data['predicted_cluster'] == i),'petal_width'].mean()
     return center
 
-def plot_clusters(data,center):
-
+def plot_clusters(data,center):                                                                         # plotting the clusters
   fig = plt.figure(figsize=(10, 10))
   ax = fig.add_subplot(111, projection='3d')
   print('centers of the clusers',center)
@@ -98,7 +97,15 @@ def main():
   data = read_replace();  
   center = set_random_centers(data)                                 
   data,center = kmeans(data,center)
+  eval = data.groupby('species')['predicted_cluster'].value_counts()
+  print(eval.sum)
+  maxvals = eval.max(level='species')
+  minvals= eval.min(level='species')
+  incorrect=0
+  for i in range(len(data.species.unique())):
+      if maxvals[i+1]!=minvals[i+1]:
+          incorrect+=minvals[i+1]
+  print('Accuracy is %f percent'%(((len(data.index)-incorrect)/len(data.index))*100))
   plot_clusters(data,center)
-  
 if __name__== "__main__":
   main()
