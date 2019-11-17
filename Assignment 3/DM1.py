@@ -1,36 +1,110 @@
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import pandas as pd
 import copy
 import os
 def read_replace():
     dir_path = os.path.dirname(os.path.realpath(__file__));                 
-    data = pd.read_csv(dir_path+"/iris.data");                                                           # reads the dataset from the current working directory  
-    temp = data.columns
-    data.columns=['sepal_length','sepal_width','petal_length','petal_width','species']
-    data = data.append({'sepal_length':temp[0],'sepal_width':temp[1],'petal_length':temp[2],'petal_width':temp[3],'species':temp[4]} , ignore_index=True)
+    data = pd.read_csv(dir_path+"/IRIS.csv");                                                           # reads the dataset from the current working directory  
     data.species.replace(['Iris-setosa', 'Iris-versicolor','Iris-virginica'], [1, 2, 3], inplace=True);  # replacing the nominal values
     data = data.sample(frac=1).reset_index(drop=True)
     return data                                                  # randomizing the dataset and resetting the index
-# def center_assignment(df, centers):
-#     for i in centers.keys():
-#         df['distance_from_{}'.format(i)] = (
-#             np.sqrt(
-#                 (df['x'] - centers[i][0]) ** 2                              ## the dimensions of the iris data has to be put here
-#                 + (df['y'] - centers[i][1]) ** 2
-#             )
-#         )
-#     centroid_distance_cols = ['distance_from_{}'.format(i) for i in centers.keys()]
-#     df['closest'] = df.loc[:, centroid_distance_cols].idxmin(axis=1)
-#     df['closest'] = df['closest'].map(lambda x: int(x.lstrip('distance_from_')))
-#     df['color'] = df['closest'].map(lambda x: colmap[x])
-#     return df
 
-# def update_center(center):
-#     for i in centers.keys():
-#         centers[i][0] = np.mean(df[df['closest'] == i]['x'])
-#         centers[i][1] = np.mean(df[df['closest'] == i]['y'])
-#     return center
+def set_random_centers(data):
+    rndc = data.sample(n=len(data.species.unique()))
+    centers = {
+     i+1: [float(rndc.sepal_length.iloc[i]),float(rndc.sepal_width.iloc[i]),float(rndc.petal_length.iloc[i]),float(rndc.petal_width.iloc[i])]
+     for i in range(len(data.species.unique()))                                                 # the number of labels of the flowers has to be changed here.
+ }
+    return centers
+
+def center_assignment(df, centers):
+    for i in centers.keys():
+        df['distance_from_{}'.format(i)] = (
+            np.sqrt(
+                (df['sepal_length'] - centers[i][0]) ** 2                              ## the dimensions of the iris data has to be put here
+                + (df['sepal_width'] - centers[i][1]) ** 2
+                + (df['petal_length'] - centers[i][2]) ** 2                              ## the dimensions of the iris data has to be put here
+                + (df['petal_width'] - centers[i][3]) ** 2
+            )
+        )
+    centroid_distance_cols = ['distance_from_{}'.format(i) for i in centers.keys()]
+    df['predicted'] = df.loc[:, centroid_distance_cols].idxmin(axis=1)
+    df['predicted'] = df['predicted'].map(lambda x: int(x.lstrip('distance_from_')))
+    return df
+
+def kmeans(data,center):
+    data = center_assignment(data,center)               ## this is working fine
+    dw=dx=dy=dz=1
+    iterations=0
+    while iterations<1000:# and (dw>=0.001 and dx>= 0.001 and dy>=0.001 and dz>= 0.001):
+        closest_centers = data['predicted'].copy(deep=True)                     ## guess this is working
+        old_centers = copy.deepcopy(center)                                     ## deep copy of the old centers
+        center = update_center(center,data)                                     ## new initialized centers
+        for i in old_centers.keys():
+            old_w = old_centers[i][0]
+            old_x = old_centers[i][1]
+            old_y = old_centers[i][2]
+            old_z = old_centers[i][3]
+            dw = abs(center[i][0] - old_centers[i][0])
+            dx = abs(center[i][1] - old_centers[i][1])
+            dy = abs(center[i][2] - old_centers[i][2])
+            dz = abs(center[i][3] - old_centers[i][3])
+        data = center_assignment(data, center)
+        print(data)
+        iterations+=1
+        if closest_centers.equals(data['predicted']):
+            return(data)
+    return(data)
+
+def update_center(center,data):
+    for i in center.keys():
+        center[i][0] = np.mean(data[data['predicted'] == i]['sepal_length'])
+        center[i][1] = np.mean(data[data['predicted'] == i]['sepal_width'])
+        center[i][2] = np.mean(data[data['predicted'] == i]['petal_length'])
+        center[i][3] = np.mean(data[data['predicted'] == i]['petal_width'])
+    return center
+
+
+def main():
+  data = read_replace();
+  print(data.to_string())
+  center = set_random_centers(data)                                 ## this is working fine
+  data = kmeans(data,center)
+  data['correct'] = np.where((data['species'] == data['predicted']) , 1, 0)
+  print(data.to_string())
+  print(data.correct.sum())
+if __name__== "__main__":
+  main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # iter = 1 
@@ -93,11 +167,3 @@ def read_replace():
 # print(iter)
 # print(df)
 # plt.show()
-
-
-def main():
-  data = read_replace();
-  
-  plt.show();
-if __name__== "__main__":
-  main()
