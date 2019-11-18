@@ -43,6 +43,8 @@ def kmeans(data,center):                                                        
     data = center_assignment(data,center)                                   
     iterations=0
     norm = True
+    j=1
+    print ("...............................Clustering the points...............................\n")
     while iterations<1000 and norm:
         old_centers = copy.deepcopy(center)                                     
         center = update_center(center,data)
@@ -64,7 +66,7 @@ def kmeans(data,center):                                                        
         if flag ==3:
             norm =False
         iterations+=1
-    print('No of iterations    :', iterations)           
+    print('No of iterations    : %d\n'% iterations)           
     return(data,center)
 
 def update_center(center,data):                                                                         #updating the centroids
@@ -78,7 +80,10 @@ def update_center(center,data):                                                 
 def plot_clusters(data,center):                                                                         # plotting the clusters
   fig = plt.figure(figsize=(10, 10))
   ax = fig.add_subplot(111, projection='3d')
-  print('centers of the clusers',center)
+  print('Centroids of the clusters')
+  for i in center.keys():
+      print('Center %d'% int(i))
+      print(center[i],'\n')
   x = data['sepal_length'],
   y = data['sepal_width'],
   z = data['petal_length'],
@@ -98,14 +103,13 @@ def main():
   center = set_random_centers(data)                                 
   data,center = kmeans(data,center)
   eval = data.groupby('species')['predicted_cluster'].value_counts()
-  print(eval.sum)
   maxvals = eval.max(level='species')
   minvals= eval.min(level='species')
   incorrect=0
   for i in range(len(data.species.unique())):
       if maxvals[i+1]!=minvals[i+1]:
           incorrect+=minvals[i+1]
-  print('Accuracy is %f percent'%(((len(data.index)-incorrect)/len(data.index))*100))
+  print('Accuracy is %f percent\n'%(((len(data.index)-incorrect)/len(data.index))*100))
   plot_clusters(data,center)
 if __name__== "__main__":
   main()
