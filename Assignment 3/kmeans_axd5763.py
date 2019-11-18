@@ -104,11 +104,11 @@ def main():
   eval = data.groupby('species')['predicted_cluster'].value_counts()
   maxvals = eval.max(level='species')
   minvals= eval.min(level='species')
-  incorrect=0
+  correct=0
   for i in range(len(data.species.unique())):
-      if maxvals[i+1]!=minvals[i+1]:
-          incorrect+=minvals[i+1]
-  print('Accuracy is %f percent\n'%(((len(data.index)-incorrect)/len(data.index))*100))
+    correct+=maxvals[i+1]
+  correct=len(data.index)-correct
+  print('Accuracy is %f percent\n'%(100-(correct*100/len(data.index))))
   plot_clusters(data,center)
 if __name__== "__main__":
   main()
