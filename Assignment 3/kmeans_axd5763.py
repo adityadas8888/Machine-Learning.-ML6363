@@ -101,7 +101,6 @@ def main():
   data = read_replace();  
   center = set_random_centers(data)                                 
   data,center = kmeans(data,center)
-  print(data.to_string())
   eval = data.groupby('species')['predicted_cluster'].value_counts()
   maxvals = eval.max(level='species')
   minvals= eval.min(level='species')
