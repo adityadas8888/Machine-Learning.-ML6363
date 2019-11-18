@@ -5,7 +5,6 @@ import math
 import os
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
-import numpy as np
 
 def read_replace():
     dir_path = os.path.dirname(os.path.realpath(__file__));                 
@@ -45,7 +44,7 @@ def kmeans(data,center):                                                        
     norm = True
     j=1
     print ("...............................Clustering the points...............................\n")
-    while iterations<1000 and norm:
+    while iterations<10000 and norm:
         old_centers = copy.deepcopy(center)                                     
         center = update_center(center,data)
         data = center_assignment(data,center)  
@@ -102,6 +101,7 @@ def main():
   data = read_replace();  
   center = set_random_centers(data)                                 
   data,center = kmeans(data,center)
+  print(data.to_string())
   eval = data.groupby('species')['predicted_cluster'].value_counts()
   maxvals = eval.max(level='species')
   minvals= eval.min(level='species')
