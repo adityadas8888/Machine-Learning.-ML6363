@@ -9,3 +9,6 @@ Naive Bayes classification on the 20000 Newsgroup data.
 
 Assignment 3:
 Kmeans clustering on Iris Data
+
+
+Give a star if you are using my code :)
